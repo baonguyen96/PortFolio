@@ -5,30 +5,35 @@
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="../script/projects.js"></script>
+        <script src="../script/experience.js"></script>
     </head>
 
     <body>
+        <!-- header -->
         <div id="header" class="section">
             <img alt="" class="img-circle" src="../assets/images/misc/avatar.jpg">
             <p>Bao Nguyen</p>
         </div>
 
+        <!-- about -->
         <div class="section">
             <h1><span>About Me</span></h1>
             <p>
-                Hello! I'm <strong>Bao</strong>. Currently I am attending <a href="http://www.utdallas.edu/" target="_blank">The University of Texas at Dallas</a>, majoring in Software Engineering. I am honored to enroll in the <a href="https://engineering.utdallas.edu/academics/undergraduate-majors/fast-track/" target="_blank">Fast Track Program</a>. I expect to graduate with my Bachelor degree in the Fall of 2018 and complete my Master degree the next semester. All the classes I have taken so far enable me to think more comprehensively about my major and provide me many useful information about the career that I chose. Beside school time, I read books and learn some other programming languages on my own. I have written two Android applications myself. I also join CodeBurners, a weekly programming contests at UTD.
+                Hello! I'm <strong>Bao</strong>. Currently I am attending <a href="http://www.utdallas.edu/" target="_blank">The University of Texas at Dallas</a>, majoring in Software Engineering. I am honored to enroll in the <a href="https://engineering.utdallas.edu/academics/undergraduate-majors/fast-track/" target="_blank">Fast Track Program</a>. I expect to graduate with my Bachelor degree in the Fall of 2018 and complete my Master degree the next semester. All the classes I have taken so far enable me to think more comprehensively about my major and provide me many useful information about the career that I chose. Beside school time, I read books and learn some other programming languages on my own. I also join <a href="http://cs.utdallas.edu/ai1ec-event/codeburners-kickoff-spring-2017/" target="_blank">CodeBurners</a> - a weekly programming contests at UTD - since 2015, <a href="http://www.vincefutd.org/" target="_blank">UTD Vincef</a> and <a href="http://www.utdallas.edu/urec/clubsports/" target="_blank">UTD Swim Club</a> from 2016 to 2017.
             </p>
             <p>
-                I am fascinating with Data Structures, Cryptography, Quality Assurance, and Cyber-security (I know, that is a lot.)
+                I am fascinating with Data Structures, Cryptography, Quality Assurance, and Cyber-security.
             </p>
             <p>
                 Besides programming, I like reading books (mostly about  tech-related,) swimming, and doing photography. You can visit my <a href="https://500px.com/baonguyen9" target="_blank">500px</a> page or my <a href="http://baonguyenphoto.weebly.com/" target="_blank">Photography</a> site to check out my photographs.
             </p>
         </div>
 
+        <!-- skills (need to replace progressbar) -->
         <div class="section">
-            <h1><span>My Skills</span></h1>
-            <table id="skillsTable">
+            <h1><span>Programming Skills</span></h1>
+            <p class="skillTableName" hidden>Programming</p>
+            <table class="skillsTable">
                 <tr>
                     <td>
                         <span>Java</span>
@@ -110,11 +115,28 @@
                     </td>
                 </tr>
             </table>
+            <!--<br/>-->
+            <p class="skillTableName" hidden>Other</p>
+            <table class="skillsTable" hidden>
+                <tr>
+                    <td>
+                        <span>MS Office</span>
+                        <progress min="0" max="100" value="100"></progress>
+                    </td>
+                    <td>
+                        <span>Adobe CC</span>
+                        <progress min="0" max="100" value="70"></progress>
+                    </td>
+                </tr>
+            </table>
         </div>
 
+        <!-- projects -->
         <div class="section">
             <h1><span>Some Cool Stuff</span></h1>
-            <p>Followings are some of my projects. They are both school-related projects and extracurriculars that I do on my own to practice the skills that I learn outside of school.</p>
+            <p>
+                Followings are some of my projects. They are both school-related projects and extracurricular ones that I do on my own to practice the skills that I learn outside of school.
+            </p>
 
             <table class="projectsTable">
                 <!-- default = always appear -->
@@ -194,14 +216,14 @@
                 </tr>
 
                 <!-- hidden unless click to show more -->
-                <tr class="projectsTableMore">
+                <tr class="projectsTableHidden">
                     <td class="project">
                         <p class="projectTitle">
-                            Airplane Tickets Reservation System
+                            Tickets Reservation System
                         </p>
                         <div class="projectDescription">
                             <p>
-                                This <span class="projectType">C++</span> project that simulates the current online ticketing systems. The system either reserves the seats with receipts then flies the plane when full; or it puts the selected seats onto the wait-list of their associated plane if those seats are already reserved. The prices are based on the type of seat(s) and the age of user.
+                                This <span class="projectType">C++</span> project  simulates the current online ticketing systems - that either reserves the seats with receipts then flies the plane when full, or puts the selected seats onto the wait-list if those seats are not available. The prices are based on the type of seat(s) and the age of user.
                             </p>
                             <p>
                                 Check out on
@@ -222,7 +244,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="projectsTableMore">
+                <tr class="projectsTableHidden">
                     <td class="project">
                         <p class="projectTitle">
                             Flights Map
@@ -256,7 +278,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="projectsTableMore">
+                <tr class="projectsTableHidden">
                     <td class="project">
                         <p class="projectTitle">
                             Ticket To Knowhere
@@ -279,7 +301,7 @@
                         </p>
                         <div class="projectDescription">
                             <p>
-                                This is my own implementation of the <a href="https://en.wikipedia.org/wiki/Red%E2%80%93black_tree" target="_blank">RedBlackTree</a> data structure in <span class="projectType">Java</span>.
+                                This is my own implementation of the <a href="https://en.wikipedia.org/wiki/Red%E2%80%93black_tree" target="_blank">Red-Black Tree</a> data structure in <span class="projectType">Java</span>.
                             </p>
                             <p>
                                 Check out on
@@ -290,14 +312,14 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="projectsTableMore">
+                <tr class="projectsTableHidden">
                     <td class="project">
                         <p class="projectTitle">
                             Health Score
                         </p>
                         <div class="projectDescription">
                             <p>
-                                This project is based on the concept of multi-sensors data fusion, using basic statistical analysis. Multi-sensors data fusion is the process of combining observations from a number of different sensors to provide a robust and complete description of an environment or process of interest. Written in <span class="projectType">C</span>.
+                                This project is a statistical analysis program based on the concept of multi-sensors data fusion - the process of combining observations from a number of different sensors to provide a robust and complete description of an environment or process. Written in <span class="projectType">C</span>.
                             </p>
                             <p>
                                 Check out on
@@ -313,7 +335,7 @@
                         </p>
                         <div class="projectDescription">
                             <p>
-                                A simple chat room project in <span class="projectType">Java</span> that allows a client and server to talk to each other. This is a &quot;smallet, simpler&quot; version of the <a href="index.html#fileTransferApplicationProject">File Transfer Application</a> project.
+                                A simple chat room project in <span class="projectType">Java</span> that allows a client and server to talk to each other. This is a &quot;smaller, simpler&quot; version of the <a href="index.html#fileTransferApplicationProject">File Transfer Application</a> project.
                             </p>
                             <p>
                                 Check out on
@@ -324,44 +346,165 @@
                         </div>
                     </td>
                 </tr>
+                <tr class="projectsTableHidden">
+                    <td class="project" id="kwicProject">
+                        <p class="projectTitle">
+                            KWIC System
+                        </p>
+                        <div class="projectDescription">
+                            <p>
+                                This group project is a web based solution to the <a href="" target="_blank">Key Word in Context</a> problem, implemented using <span class="projectType">HTML, CSS, JavaScript, and JSP</span>.
+                            </p>
+                            <p>
+                                Check out on
+                                <a href="https://github.com/baonguyen96/KWIC_Project">
+                                    GitHub
+                                </a>
+                            </p>
+                        </div>
+                    </td>
+                    <td class="project">
+                        <p class="projectTitle">
+                            Cyberminer
+                        </p>
+                        <div class="projectDescription">
+                            <p>
+                                A simple search engine built in <span class="projectType">HTML, CSS, JavaScript, JSP, MySQL, and Selenium</span> that allows users to add a URL-Description tuple to the database, and carries out a search on the descriptions. Built upon the <a href="index.html#kwicProject">KWIC</a> project.
+                            </p>
+                            <p>
+                                Check out on
+                                <a href="https://github.com/baonguyen96/Cyberminer" target="_blank">
+                                    GitHub
+                                </a>
+                            </p>
+                        </div>
+                    </td>
+                </tr>
             </table>
 
-            <div id="projectsToggle">More</div>
+            <p class="toggleText" id="projectsToggle">More</p>
         </div>
 
+        <!-- work experience -->
+        <div class="section">
+            <h1><span>Experience</span></h1>
+            <div>
+                <table class="experienceTitle">
+                    <tr>
+                        <td class="jobTitle">Quality Assurance Intern</td>
+                        <td class="company">Loopback Analytics</td>
+                        <td class="period">May 2017 - August 2017</td>
+                    </tr>
+                </table>
+                <div class="customList">
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Perform various testing techniques for software releases
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Use Selenium IDE and WebDriver for automated testing
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Maintain and update Selenese scripts
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Migrate Selenese scripts to Java OOP to support automation testing on multiple browsers
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Implement additional features such as self-healing and report logging
+                    </div>
+                </div>
+            </div>
+            <div class="experienceHidden">
+                <hr>
+                <table class="experienceTitle">
+                    <tr>
+                        <td class="jobTitle">Store Associate</td>
+                        <td class="company">7-Eleven</td>
+                        <td class="period">July 2014 - December 2016</td>
+                    </tr>
+                </table>
+                <div class="customList">
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Receive and check in/out merchandises
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Provide outstanding customer services
+                    </div>
+                </div>
+            </div>
+            <div class="experienceHidden">
+                <hr>
+                <table class="experienceTitle">
+                    <tr>
+                        <td class="jobTitle">Librarian Helper</td>
+                        <td class="company">Melbourne Public Library</td>
+                        <td class="period">November 2012 - March 2013</td>
+                    </tr>
+                </table>
+                <div class="customList">
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Volunteer
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Keep track of books flow
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Organize books
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/work.png" class="customListIcon">
+                        Organize and run public events
+                    </div>
+                </div>
+            </div>
+            <p class="toggleText" id="experienceToggle">More</p>
+        </div>
+
+        <!-- awards -->
         <div class="section">
             <h1><span>Awards</span></h1>
             <p>
                 As a student at
                     <a href="http://www.utdallas.edu/" target="_blank">The University of Texas at Dallas</a>,
-                I am honored to receive several awards as follow:
+                I am honored to receive several awards:
             </p>
-            <div id="awardList">
+            <div class="customList">
                 <div>
-                    <img src="../assets/images/misc/award.png" class="awardIcon">
+                    <img src="../assets/images/misc/award.png" class="customListIcon">
                     <a href="https://www.utdallas.edu/news/2015/3/13-31446_More-than-1100-Students-Earn-Spots-on-Deans-List-f_story-wide.html" target="_blank">Fall 2014 Dean's List</a>
                      with the Excellence in Education Scholarship for this semester
                 </div>
                 <div>
-                    <img src="../assets/images/misc/award.png" class="awardIcon">
+                    <img src="../assets/images/misc/award.png" class="customListIcon">
                     <a href="http://www.utdallas.edu/news/2016/3/4-31922_More-than-1200-Students-Earn-Spots-on-Deans-List-f_story-wide.html?WT.mc_id=NewsEmail" target="_blank">Fall 2015 Dean's List</a>
                     with the Excellence in Education Scholarship for this semester
                 </div>
                 <div>
-                    <img src="../assets/images/misc/award.png" class="awardIcon">
+                    <img src="../assets/images/misc/award.png" class="customListIcon">
                     2017 Wells Fargo Endowed Scholarship
                 </div>
                 <div>
-                    <img src="../assets/images/misc/award.png" class="awardIcon">
+                    <img src="../assets/images/misc/award.png" class="customListIcon">
                     2018 Selden Leavell Endowed Scholarship
                 </div>
                 <div>
-                    <img src="../assets/images/misc/award.png" class="awardIcon">
+                    <img src="../assets/images/misc/award.png" class="customListIcon">
                     2018 Mason Brown Family Foundation Endowed Scholarship
                 </div>
             </div>
         </div>
 
+        <!-- contact -->
         <div class="section">
             <h1><span>Contact Me</span></h1>
             <form>
@@ -372,6 +515,7 @@
             </form>
         </div>
 
+        <!-- follow -->
         <div class="section" id="contacts">
             <h1><span>Follow Me</span></h1>
             <div>
@@ -381,11 +525,14 @@
                 <a href="https://www.linkedin.com/in/bao-nguyen96/" target="_blank">
                     <img alt="500px" src="../assets/images/media-icons/linkedin.png" />
                 </a>
-                <a href="http://www.youtube.com/user/MrBaonguyen96" target="_blank">
-                    <img alt="500px" src="../assets/images/media-icons/youtube.png" />
+                <a href="mailto:baonguyen0396@gmail.com">
+                    <img alt="email" src="../assets/images/media-icons/gmail.png" />
                 </a>
                 <a href="https://500px.com/baonguyen9" target="_blank">
                     <img alt="500px" src="../assets/images/media-icons/500px.png" />
+                </a>
+                <a href="http://www.youtube.com/user/MrBaonguyen96" target="_blank">
+                    <img alt="500px" src="../assets/images/media-icons/youtube.png" />
                 </a>
             </div>
         </div>

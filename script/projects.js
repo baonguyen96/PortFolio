@@ -3,11 +3,11 @@ $(document).ready(function () {
         var state = $("#projectsToggle").text();
 
         if(state === "More") {
-            $(".projectsTableMore").show();
+            $(".projectsTableHidden").show();
             state = "Less";
         }
         else {
-            $(".projectsTableMore").hide();
+            $(".projectsTableHidden").hide();
             state = "More";
         }
 
