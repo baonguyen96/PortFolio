@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Bao Nguyen Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="../script/showHide.js"></script>
@@ -9,625 +12,624 @@
     </head>
 
     <body>
-        <!-- header -->
-        <div id="header" class="section">
-            <img alt="" class="img-circle" src="../assets/images/misc/avatar.jpg">
-            <p>Bao Nguyen</p>
-        </div>
+        <div class="container-fluid">
+            <!-- header -->
+            <div id="header" class="section">
+                <img alt="" class="img-circle" src="../assets/images/misc/avatar.jpg">
+                <p>Bao Nguyen</p>
+            </div>
 
-        <!-- about -->
-        <div class="section">
-            <h1><span>About Me</span></h1>
-            <p>
-                Hello! My name is <strong>Bao</strong>. Currently I am attending <a href="http://www.utdallas.edu/" target="_blank">The University of Texas at Dallas</a>, majoring in Software Engineering. I am honored to enroll in the <a href="https://engineering.utdallas.edu/academics/undergraduate-majors/fast-track/" target="_blank">Fast Track Program</a>. I expect to graduate with my Bachelor degree in the Fall of 2018 and complete my Master degree the next semester. All the classes I have taken so far enable me to think more comprehensively about my major and provide me many useful information about the career that I chose. Beside school time, I read books and learn some other programming languages on my own. I also join <a href="http://cs.utdallas.edu/ai1ec-event/codeburners-kickoff-spring-2017/" target="_blank">CodeBurners</a> - a weekly programming contests at UTD - since 2015, <a href="http://www.vincefutd.org/" target="_blank">UTD Vincef</a> and <a href="http://www.utdallas.edu/urec/clubsports/" target="_blank">UTD Swim Club</a> from 2016 to 2017.
-            </p>
-            <p>
-                I am fascinating with Data Structures, Cryptography, Quality Assurance, and Cyber-security.
-            </p>
-            <p>
-                Besides programming, I like reading books (mostly about  tech-related,) swimming, and doing photography. You can visit my <a href="https://500px.com/baonguyen9" target="_blank">500px</a> page or my <a href="http://baonguyenphoto.weebly.com/" target="_blank">Photography</a> site to check out my photographs.
-            </p>
-        </div>
+            <!-- about -->
+            <div class="section">
+                <h1><span>About Me</span></h1>
+                <p>
+                    Hello! My name is <strong>Bao</strong>. Currently I am attending <a href="http://www.utdallas.edu/" target="_blank">The University of Texas at Dallas</a>, majoring in Software Engineering. I am honored to enroll in the <a href="https://engineering.utdallas.edu/academics/undergraduate-majors/fast-track/" target="_blank">Fast Track Program</a>. I expect to graduate with my Bachelor degree in the Fall of 2018 and complete my Master degree the next semester. All the classes I have taken so far enable me to think more comprehensively about my major and provide me many useful information about the career that I chose. Beside school time, I read books and learn some other programming languages on my own. I also join <a href="http://cs.utdallas.edu/ai1ec-event/codeburners-kickoff-spring-2017/" target="_blank">CodeBurners</a> - a weekly programming contests at UTD - since 2015, <a href="http://www.vincefutd.org/" target="_blank">UTD Vincef</a> and <a href="http://www.utdallas.edu/urec/clubsports/" target="_blank">UTD Swim Club</a> from 2016 to 2017.
+                </p>
+                <p>
+                    I am fascinating with Data Structures, Cryptography, Quality Assurance, and Cyber-security.
+                </p>
+                <p>
+                    Besides programming, I like reading books (mostly about  tech-related,) swimming, and doing photography. You can visit my <a href="https://500px.com/baonguyen9" target="_blank">500px</a> page or my <a href="http://baonguyenphoto.weebly.com/" target="_blank">Photography</a> site to check out my photographs.
+                </p>
+            </div>
 
-        <!-- work experience -->
-        <div class="section">
-            <h1><span>Work Experience</span></h1>
-            <div>
-                <table class="experienceTitle">
-                    <tr>
-                        <td class="jobTitle">Quality Assurance Intern</td>
-                        <td class="company">Loopback Analytics</td>
-                        <td class="period">May 2017 - August 2017</td>
-                    </tr>
-                </table>
-                <div class="customList">
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Perform various testing techniques for software releases
+            <!-- work experience (still working on it) -->
+            <div class="section">
+                <h1><span>Work Experience</span></h1>
+                <div>
+                    <div class="row experienceTitle">
+                        <div class="col-sm-4 jobTitle">Quality Assurance Intern</div>
+                        <div class="col-sm-4 company">Loopback Analytics</div>
+                        <div class="col-sm-4 period">May 2017 - August 2017</div>
                     </div>
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Use Selenium IDE and WebDriver for automated testing
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Maintain and update Selenese scripts
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Migrate Selenese scripts to Java OOP to support automation testing on multiple browsers
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Implement additional features such as self-healing and report logging
+                    <div class="customList">
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">Perform various testing techniques for software releases</p>
+                        </div>
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">Use Selenium IDE and WebDriver for automated testing</p>
+                        </div>
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">Maintain and update Selenese scripts</p>
+                        </div>
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">Migrate Selenese scripts to Java OOP to support automation testing on multiple browsers</p>
+                        </div>
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">Implement additional features such as self-healing and report logging</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="experienceHidden">
-                <hr>
-                <table class="experienceTitle">
-                    <tr>
-                        <td class="jobTitle">Store Associate</td>
-                        <td class="company">7-Eleven</td>
-                        <td class="period">July 2014 - December 2016</td>
-                    </tr>
-                </table>
-                <div class="customList">
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Receive and check in/out merchandises
+                <div class="experienceHidden">
+                    <hr>
+                    <div class="row experienceTitle">
+                        <div class="col-sm-4 jobTitle">Store Associate</div>
+                        <div class="col-sm-4 company">7-Eleven</div>
+                        <div class="col-sm-4 period">July 2014 - December 2016</div>
                     </div>
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Provide outstanding customer services
-                    </div>
-                </div>
-            </div>
-            <div class="experienceHidden">
-                <hr>
-                <table class="experienceTitle">
-                    <tr>
-                        <td class="jobTitle">Librarian Helper</td>
-                        <td class="company">Melbourne Public Library</td>
-                        <td class="period">November 2012 - March 2013</td>
-                    </tr>
-                </table>
-                <div class="customList">
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Volunteer
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Keep track of books flow
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Organize books
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/work.png" class="customListIcon">
-                        Organize and run public events
+                    <div class="customList">
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">
+                                Receive and check in/out merchandises</p>
+                        </div>
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">Provide outstanding customer services</p>
+                        </div>
                     </div>
                 </div>
+                <div class="experienceHidden">
+                    <hr>
+                    <div class="row experienceTitle">
+                        <div class="col-sm-4 jobTitle">Librarian Helper</div>
+                        <div class="col-sm-4 company">Melbourne Public Library</div>
+                        <div class="col-sm-4 period">November 2012 - March 2013</div>
+                    </div>
+                    <div class="customList">
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">
+                                Volunteer</p>
+                        </div>
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">Keep track of books flow</p>
+                        </div>
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">Organize books</p>
+                        </div>
+                        <div>
+                            <img src="../assets/images/misc/work.png" class="customListIcon">
+                            <p class="customListText">Organize and run public events</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="toggleText" id="experienceToggle">More</p>
             </div>
-            <p class="toggleText" id="experienceToggle">More</p>
-        </div>
 
-        <!-- skills -->
-        <div class="section">
-            <h1><span>Skills</span></h1>
-            <p class="skillTableName" hidden>Programming</p>
-            <table class="skillsTable">
-                <tr>
-                    <td>
-                        <span>Java</span>
+            <!-- skills -->
+            <div class="section">
+                <h1><span>Skills</span></h1>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language">Java</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="java">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <span>C</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="language">C</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="c">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>C++</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language">C++</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="cpp">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <span>C#</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="language">C#</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="cSharp">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language">Python</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="python">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <span>PHP</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="language">PHP</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="php">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language">HTML</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="html">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <span>CSS</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="language">CSS</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="css">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language">JavaScript</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="javascript">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <span>jQuery</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="language">jQuery</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="jQuery">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>MySQL</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language">MYSQL</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="mySQL">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <span>JBDC</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="language">JDBC</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="jdbc">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>JUnit</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language">JUnit</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="jUnit">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <span>TestNG</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="language">TestNG</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="testNG">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>GitHub</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language">GitHub</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="github">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <span>Selenium</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="language">Selenium</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="selenium">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>Windows</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language">Windows</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="windows">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <span>Linux</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="language">Linux</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="linux">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>Android</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language">Android</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="android">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <span>MS Office</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="language">MS Office</span>
                         <div class="progressBackground">
                             <div class="progressValue" id="msOffice">
                                 <div class="progressValueText"></div>
                             </div>
                         </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
+                    </div>
+                </div>
+            </div>
 
-        <!-- projects -->
-        <div class="section">
-            <h1><span>Some Cool Stuff</span></h1>
-            <p class="greeting">
-                Followings are some of my projects. They are both school-related projects and extracurricular ones that I do on my own to practice the skills that I learn outside of school.
-            </p>
+            <!-- projects -->
+            <div class="section">
+                <h1><span>Some Cool Stuff</span></h1>
+                <p class="greeting">
+                    Followings are some of my projects. They are both school-related projects and extracurricular ones that I do on my own to practice the skills that I learn outside of school.
+                </p>
 
-            <table class="projectsTable">
-                <!-- default = always appear -->
-                <tr>
-                    <td class="project">
-                        <p class="projectTitle">
-                            Dark Chroma
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                A <span class="projectType">Chrome extension</span> that revert the color of the page (bright text on dark background) to reduce eye-strains from long working period.
+                <table class="projectsTable">
+                    <!-- default = always appear -->
+                    <tr>
+                        <td class="project">
+                            <p class="projectTitle">
+                                Dark Chroma
                             </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/DarkChroma" target="_blank">
-                                    GitHub
-                                </a>
+                            <div class="projectDescription">
+                                <p>
+                                    A <span class="projectType">Chrome extension</span> that revert the color of the page (bright text on dark background) to reduce eye-strains from long working period.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/DarkChroma" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                                <p>
+                                    Also available on
+                                    <a href="https://chrome.google.com/webstore/detail/dark-chroma/jjknnbjoocbcgemnnjoaiifopndlcnbe" target="_blank">
+                                        Chrome Web Store
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="project" id="fileTransferApplicationProject">
+                            <p class="projectTitle">
+                                File Transfer Application
                             </p>
-                            <p>
-                                Also available on
-                                <a href="https://chrome.google.com/webstore/detail/dark-chroma/jjknnbjoocbcgemnnjoaiifopndlcnbe" target="_blank">
-                                    Chrome Web Store
-                                </a>
+                            <div class="projectDescription">
+                                <p>
+                                    This <span class="projectType">Java</span> project implements a unique protocol for File Transfer between one Server and one Client utilizing Socket Programming, Connection Management, Reliable Communication, and Security (Public Key Crypto as well as Symmetric Key Crypto).
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/FileTransferApplication" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="project">
+                            <p class="projectTitle">
+                                MIPS Converter
                             </p>
-                        </div>
-                    </td>
-                    <td class="project" id="fileTransferApplicationProject">
-                        <p class="projectTitle">
-                            File Transfer Application
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                This <span class="projectType">Java</span> project implements a unique protocol for File Transfer between one Server and one Client utilizing Socket Programming, Connection Management, Reliable Communication, and Security (Public Key Crypto as well as Symmetric Key Crypto).
+                            <div class="projectDescription">
+                                <p>
+                                    This <span class="projectType">Java, Java Swing</span> project provides conversion from and to Java, MIPS, and Machine codes. It recognizes different instruction types (I-, R-, or J-) from MIPS or Binary codes and provides the other two equivalences on a GUI.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/MipsConverter" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="project">
+                            <p class="projectTitle">
+                                Morse Mastering
                             </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/FileTransferApplication" target="_blank">
-                                    GitHub
-                                </a>
-                            </p>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="project">
-                        <p class="projectTitle">
-                            MIPS Converter
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                This <span class="projectType">Java, Java Swing</span> project provides conversion from and to Java, MIPS, and Machine codes. It recognizes different instruction types (I-, R-, or J-) from MIPS or Binary codes and provides the other two equivalences on a GUI.
-                            </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/MipsConverter" target="_blank">
-                                    GitHub
-                                </a>
-                            </p>
-                        </div>
-                    </td>
-                    <td class="project">
-                        <p class="projectTitle">
-                            Morse Mastering
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                An <span class="projectType">Android application</span> that teaches users the Morse code and translates between Morse and normal text. It also provides some Android services, such as Notification and Network Communication.
-                            </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/MorseMastering" target="_blank">
-                                    GitHub
-                                </a>
-                            </p>
-                        </div>
-                    </td>
-                </tr>
+                            <div class="projectDescription">
+                                <p>
+                                    An <span class="projectType">Android application</span> that teaches users the Morse code and translates between Morse and normal text. It also provides some Android services, such as Notification and Network Communication.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/MorseMastering" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
 
-                <!-- hidden unless click to show more -->
-                <tr class="projectsHidden">
-                    <td class="project">
-                        <p class="projectTitle">
-                            Tickets Reservation System
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                This <span class="projectType">C++</span> project  simulates the current online ticketing systems - that either reserves the seats with receipts then flies the plane when full, or puts the selected seats onto the wait-list if those seats are not available. The prices are based on the type of seat(s) and the age of user.
+                    <!-- hidden unless click to show more -->
+                    <tr class="projectsHidden">
+                        <td class="project">
+                            <p class="projectTitle">
+                                Tickets Reservation System
                             </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/AirplaneTicketsReservingSystem" target="_blank">
-                                    GitHub
-                                </a>
+                            <div class="projectDescription">
+                                <p>
+                                    This <span class="projectType">C++</span> project  simulates the current online ticketing systems - that either reserves the seats with receipts then flies the plane when full, or puts the selected seats onto the wait-list if those seats are not available. The prices are based on the type of seat(s) and the age of user.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/AirplaneTicketsReservingSystem" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="project">
+                            <p class="projectTitle">
+                                E-Commerce
                             </p>
-                        </div>
-                    </td>
-                    <td class="project">
-                        <p class="projectTitle">
-                            E-Commerce
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                This project is a small E-Commerce database using Java embedded with <span class="projectType">MySQL (JDBC</span> and <span class="projectType">JPA.)</span>
+                            <div class="projectDescription">
+                                <p>
+                                    This project is a small E-Commerce database using Java embedded with <span class="projectType">MySQL (JDBC</span> and <span class="projectType">JPA.)</span>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="projectsHidden">
+                        <td class="project">
+                            <p class="projectTitle">
+                                Flights Map
                             </p>
-                        </div>
-                    </td>
-                </tr>
-                <tr class="projectsHidden">
-                    <td class="project">
-                        <p class="projectTitle">
-                            Flights Map
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                This <span class="projectType">C#</span> project represents a map of flights that connect different cities. Each city is a vertex, and each flight is an edge in the graph. It utilizes Dijkstra's algorithm to find the 3 shortest paths (either by flight duration or by total distance) between given 2 cities.
+                            <div class="projectDescription">
+                                <p>
+                                    This <span class="projectType">C#</span> project represents a map of flights that connect different cities. Each city is a vertex, and each flight is an edge in the graph. It utilizes Dijkstra's algorithm to find the 3 shortest paths (either by flight duration or by total distance) between given 2 cities.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/FlightGraph" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="project">
+                            <p class="projectTitle">
+                                Calendar
                             </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/FlightGraph" target="_blank">
-                                    GitHub
-                                </a>
+                            <div class="projectDescription">
+                                <p>
+                                    Simple <span class="projectType">Java, JavaFX</span>  program to calculate the difference between 2 dates, or the second date given the first one and the duration.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/Calendar" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="projectsHidden">
+                        <td class="project">
+                            <p class="projectTitle">
+                                Ticket To Knowhere
                             </p>
-                        </div>
-                    </td>
-                    <td class="project">
-                        <p class="projectTitle">
-                            Calendar
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                Simple <span class="projectType">Java, JavaFX</span>  program to calculate the difference between 2 dates, or the second date given the first one and the duration.
+                            <div class="projectDescription">
+                                <p>
+                                    A docking software system that tracks parking lot's activities and generates violation tickets, written in <span class="projectType">C++</span>.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/TicketToKnowhere" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="project">
+                            <p class="projectTitle">
+                                Red Black Tree
                             </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/Calendar" target="_blank">
-                                    GitHub
-                                </a>
+                            <div class="projectDescription">
+                                <p>
+                                    This is my own implementation of the <a href="https://en.wikipedia.org/wiki/Red%E2%80%93black_tree" target="_blank">Red-Black Tree</a> data structure in <span class="projectType">Java</span>.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/RedBlackTree" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="projectsHidden">
+                        <td class="project">
+                            <p class="projectTitle">
+                                Health Score
                             </p>
-                        </div>
-                    </td>
-                </tr>
-                <tr class="projectsHidden">
-                    <td class="project">
-                        <p class="projectTitle">
-                            Ticket To Knowhere
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                A docking software system that tracks parking lot's activities and generates violation tickets, written in <span class="projectType">C++</span>.
+                            <div class="projectDescription">
+                                <p>
+                                    This project is a statistical analysis program based on the concept of multi-sensors data fusion - the process of combining observations from a number of different sensors to provide a robust and complete description of an environment or process. Written in <span class="projectType">C</span>.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/HealthScore" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="project">
+                            <p class="projectTitle">
+                                Chat Room
                             </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/TicketToKnowhere" target="_blank">
-                                    GitHub
-                                </a>
+                            <div class="projectDescription">
+                                <p>
+                                    A simple chat room project in <span class="projectType">Java</span> that allows a client and server to talk to each other. This is a &quot;smaller, simpler&quot; version of the <a href="index.html#fileTransferApplicationProject">File Transfer Application</a> project.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/Chatroom" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="projectsHidden">
+                        <td class="project" id="kwicProject">
+                            <p class="projectTitle">
+                                KWIC System
                             </p>
-                        </div>
-                    </td>
-                    <td class="project">
-                        <p class="projectTitle">
-                            Red Black Tree
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                This is my own implementation of the <a href="https://en.wikipedia.org/wiki/Red%E2%80%93black_tree" target="_blank">Red-Black Tree</a> data structure in <span class="projectType">Java</span>.
+                            <div class="projectDescription">
+                                <p>
+                                    This group project is a web based solution to the <a href="" target="_blank">Key Word in Context</a> problem, implemented using <span class="projectType">HTML, CSS, JavaScript,</span> and <span class="projectType">JSP</span>.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/KWIC_Project">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="project">
+                            <p class="projectTitle">
+                                Cyberminer
                             </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/RedBlackTree" target="_blank">
-                                    GitHub
-                                </a>
-                            </p>
-                        </div>
-                    </td>
-                </tr>
-                <tr class="projectsHidden">
-                    <td class="project">
-                        <p class="projectTitle">
-                            Health Score
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                This project is a statistical analysis program based on the concept of multi-sensors data fusion - the process of combining observations from a number of different sensors to provide a robust and complete description of an environment or process. Written in <span class="projectType">C</span>.
-                            </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/HealthScore" target="_blank">
-                                    GitHub
-                                </a>
-                            </p>
-                        </div>
-                    </td>
-                    <td class="project">
-                        <p class="projectTitle">
-                            Chat Room
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                A simple chat room project in <span class="projectType">Java</span> that allows a client and server to talk to each other. This is a &quot;smaller, simpler&quot; version of the <a href="index.html#fileTransferApplicationProject">File Transfer Application</a> project.
-                            </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/Chatroom" target="_blank">
-                                    GitHub
-                                </a>
-                            </p>
-                        </div>
-                    </td>
-                </tr>
-                <tr class="projectsHidden">
-                    <td class="project" id="kwicProject">
-                        <p class="projectTitle">
-                            KWIC System
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                This group project is a web based solution to the <a href="" target="_blank">Key Word in Context</a> problem, implemented using <span class="projectType">HTML, CSS, JavaScript,</span> and <span class="projectType">JSP</span>.
-                            </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/KWIC_Project">
-                                    GitHub
-                                </a>
-                            </p>
-                        </div>
-                    </td>
-                    <td class="project">
-                        <p class="projectTitle">
-                            Cyberminer
-                        </p>
-                        <div class="projectDescription">
-                            <p>
-                                A simple search engine built in <span class="projectType">HTML, CSS, JavaScript, JSP, MySQL,</span> and <span class="projectType"> Selenium</span> that allows users to add a URL-Description tuple to the database, and carries out a search on the descriptions. Built upon the <a href="index.html#kwicProject">KWIC</a> project.
-                            </p>
-                            <p>
-                                Check out on
-                                <a href="https://github.com/baonguyen96/Cyberminer" target="_blank">
-                                    GitHub
-                                </a>
-                            </p>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+                            <div class="projectDescription">
+                                <p>
+                                    A simple search engine built in <span class="projectType">HTML, CSS, JavaScript, JSP, MySQL,</span> and <span class="projectType"> Selenium</span> that allows users to add a URL-Description tuple to the database, and carries out a search on the descriptions. Built upon the <a href="index.html#kwicProject">KWIC</a> project.
+                                </p>
+                                <p>
+                                    Check out on
+                                    <a href="https://github.com/baonguyen96/Cyberminer" target="_blank">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
 
-            <p class="toggleText" id="projectsToggle">More</p>
-        </div>
+                <p class="toggleText" id="projectsToggle">More</p>
+            </div>
 
-        <!-- awards -->
-        <div class="section">
-            <h1><span>Awards</span></h1>
-            <p class="greeting">
-                As a student at
+            <!-- awards -->
+            <div class="section">
+                <h1><span>Awards</span></h1>
+                <p class="greeting">
+                    As a student at
                     <a href="http://www.utdallas.edu/" target="_blank">The University of Texas at Dallas</a>,
-                I am honored to receive several awards:
-            </p>
-            <div class="customList">
-                <div>
-                    <img src="../assets/images/misc/award.png" class="customListIcon">
-                    <a href="https://www.utdallas.edu/news/2015/3/13-31446_More-than-1100-Students-Earn-Spots-on-Deans-List-f_story-wide.html" target="_blank">Fall 2014 Dean's List</a>
-                     with the Excellence in Education Scholarship for this semester
+                    I am honored to receive several awards:
+                </p>
+                <div class="customList">
+                    <div>
+                        <img src="../assets/images/misc/award.png" class="customListIcon">
+                        <p class="customListText"><a href="https://www.utdallas.edu/news/2015/3/13-31446_More-than-1100-Students-Earn-Spots-on-Deans-List-f_story-wide.html" target="_blank">Fall 2014 Dean's List</a>
+                            with the Excellence in Education Scholarship for this semester</p>
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/award.png" class="customListIcon">
+                        <p class="customListText"><a href="http://www.utdallas.edu/news/2016/3/4-31922_More-than-1200-Students-Earn-Spots-on-Deans-List-f_story-wide.html?WT.mc_id=NewsEmail" target="_blank">Fall 2015 Dean's List</a>
+                            with the Excellence in Education Scholarship for this semester</p>
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/award.png" class="customListIcon">
+                        <p class="customListText">2017 Wells Fargo Endowed Scholarship</p>
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/award.png" class="customListIcon">
+                        <p class="customListText">2018 Selden Leavell Endowed Scholarship</p>
+                    </div>
+                    <div>
+                        <img src="../assets/images/misc/award.png" class="customListIcon">
+                        <p class="customListText">2018 Mason Brown Family Foundation Endowed Scholarship</p>
+                    </div>
                 </div>
+            </div>
+
+            <!-- contact -->
+            <div class="section">
+                <h1><span>Contact Me</span></h1>
+                <form>
+                    <input name="name" placeholder="Name" type="text" required /><br/>
+                    <input name="email" placeholder="Email" type="email" required /><br/>
+                    <input name="subject" placeholder="Subject" type="text" required><br/>
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <input type="submit" value="SEND" class="submit"/>
+                </form>
+            </div>
+
+            <!-- follow -->
+            <div class="section" id="contacts">
+                <h1><span>Follow Me</span></h1>
                 <div>
-                    <img src="../assets/images/misc/award.png" class="customListIcon">
-                    <a href="http://www.utdallas.edu/news/2016/3/4-31922_More-than-1200-Students-Earn-Spots-on-Deans-List-f_story-wide.html?WT.mc_id=NewsEmail" target="_blank">Fall 2015 Dean's List</a>
-                    with the Excellence in Education Scholarship for this semester
+                    <a href="https://github.com/baonguyen96" target="_blank">
+                        <img alt="GitHub" src="../assets/images/media-icons/github.png" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/bao-nguyen96/" target="_blank">
+                        <img alt="500px" src="../assets/images/media-icons/linkedin.png" />
+                    </a>
+                    <a href="mailto:baonguyen0396@gmail.com">
+                        <img alt="email" src="../assets/images/media-icons/gmail.png" />
+                    </a>
+                    <a href="https://500px.com/baonguyen9" target="_blank">
+                        <img alt="500px" src="../assets/images/media-icons/500px.png" />
+                    </a>
+                    <a href="http://www.youtube.com/user/MrBaonguyen96" target="_blank">
+                        <img alt="500px" src="../assets/images/media-icons/youtube.png" />
+                    </a>
                 </div>
-                <div>
-                    <img src="../assets/images/misc/award.png" class="customListIcon">
-                    2017 Wells Fargo Endowed Scholarship
-                </div>
-                <div>
-                    <img src="../assets/images/misc/award.png" class="customListIcon">
-                    2018 Selden Leavell Endowed Scholarship
-                </div>
-                <div>
-                    <img src="../assets/images/misc/award.png" class="customListIcon">
-                    2018 Mason Brown Family Foundation Endowed Scholarship
-                </div>
+            </div>
+
+            <!-- copyright -->
+            <div class="copyright">
+                &copy; 2018 by Bao Nguyen. All rights reserved.
             </div>
         </div>
 
-        <!-- contact -->
-        <div class="section">
-            <h1><span>Contact Me</span></h1>
-            <form>
-                <input name="name" placeholder="Name" type="text" required /><br/>
-                <input name="email" placeholder="Email" type="email" required /><br/>
-                <input name="subject" placeholder="Subject" type="text" required><br/>
-                <textarea name="message" placeholder="Message"></textarea>
-                <input type="submit" value="SEND" class="submit"/>
-            </form>
-        </div>
-
-        <!-- follow -->
-        <div class="section" id="contacts">
-            <h1><span>Follow Me</span></h1>
-            <div>
-                <a href="https://github.com/baonguyen96" target="_blank">
-                    <img alt="GitHub" src="../assets/images/media-icons/github.png" />
-                </a>
-                <a href="https://www.linkedin.com/in/bao-nguyen96/" target="_blank">
-                    <img alt="500px" src="../assets/images/media-icons/linkedin.png" />
-                </a>
-                <a href="mailto:baonguyen0396@gmail.com">
-                    <img alt="email" src="../assets/images/media-icons/gmail.png" />
-                </a>
-                <a href="https://500px.com/baonguyen9" target="_blank">
-                    <img alt="500px" src="../assets/images/media-icons/500px.png" />
-                </a>
-                <a href="http://www.youtube.com/user/MrBaonguyen96" target="_blank">
-                    <img alt="500px" src="../assets/images/media-icons/youtube.png" />
-                </a>
-            </div>
-        </div>
-
-        <!-- copyright -->
-        <div class="copyright">
-            &copy; 2018 by Bao Nguyen. All rights reserved.
-        </div>
-
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     </body>
 </html>
