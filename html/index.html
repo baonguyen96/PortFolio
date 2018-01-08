@@ -4,9 +4,10 @@
         <title>Bao Nguyen Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-
         <link rel="stylesheet" type="text/css" href="../css/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
         <script src="../script/showHide.js"></script>
         <script src="../script/skillProgress.js"></script>
     </head>
@@ -14,13 +15,13 @@
     <body>
         <div class="container-fluid">
             <!-- header -->
-            <div id="header" class="section">
+            <section id="header" class="section">
                 <img alt="" class="img-circle" src="../assets/images/misc/avatar.jpg">
                 <p>Bao Nguyen</p>
-            </div>
+            </section>
 
             <!-- about -->
-            <div class="section">
+            <section class="section">
                 <h1><span>About Me</span></h1>
                 <p>
                     Hello! My name is <strong>Bao</strong>. Currently I am attending <a href="http://www.utdallas.edu/" target="_blank">The University of Texas at Dallas</a>, majoring in Software Engineering. I am honored to enroll in the <a href="https://engineering.utdallas.edu/academics/undergraduate-majors/fast-track/" target="_blank">Fast Track Program</a>. I expect to graduate with my Bachelor degree in the Fall of 2018 and complete my Master degree the next semester. All the classes I have taken so far enable me to think more comprehensively about my major and provide me many useful information about the career that I chose. Beside school time, I read books and learn some other programming languages on my own. I also join <a href="http://cs.utdallas.edu/ai1ec-event/codeburners-kickoff-spring-2017/" target="_blank">CodeBurners</a> - a weekly programming contests at UTD - since 2015, <a href="http://www.vincefutd.org/" target="_blank">UTD Vincef</a> and <a href="http://www.utdallas.edu/urec/clubsports/" target="_blank">UTD Swim Club</a> from 2016 to 2017.
@@ -31,10 +32,10 @@
                 <p>
                     Besides programming, I like reading books (mostly about  tech-related,) swimming, and doing photography. You can visit my <a href="https://500px.com/baonguyen9" target="_blank">500px</a> page or my <a href="http://baonguyenphoto.weebly.com/" target="_blank">Photography</a> site to check out my photographs.
                 </p>
-            </div>
+            </section>
 
-            <!-- work experience (still working on it) -->
-            <div class="section">
+            <!-- work experience -->
+            <section class="section">
                 <h1><span>Work Experience</span></h1>
                 <div>
                     <div class="row experienceTitle">
@@ -45,23 +46,25 @@
                     <div class="customList">
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">Perform various testing techniques for software releases</p>
+                            <div><p class="customListText">Perform various testing techniques for software releases</p></div>
                         </div>
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">Use Selenium IDE and WebDriver for automated testing</p>
+                            <div><p class="customListText">Use Selenium IDE and WebDriver for automated testing</p></div>
                         </div>
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">Maintain and update Selenese scripts</p>
+                            <div><p class="customListText">Maintain and update Selenese scripts</p></div>
                         </div>
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">Migrate Selenese scripts to Java OOP to support automation testing on multiple browsers</p>
+                            <div>
+                                <p class="customListText">Migrate Selenese scripts to Java OOP to support automation testing on multiple browsers</p>
+                            </div>
                         </div>
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">Implement additional features such as self-healing and report logging</p>
+                            <div><p class="customListText">Implement additional features such as self-healing and report logging</p></div>
                         </div>
                     </div>
                 </div>
@@ -75,12 +78,11 @@
                     <div class="customList">
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">
-                                Receive and check in/out merchandises</p>
+                            <div><p class="customListText">Receive and check in/out merchandises</p></div>
                         </div>
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">Provide outstanding customer services</p>
+                            <div><p class="customListText">Provide outstanding customer services</p></div>
                         </div>
                     </div>
                 </div>
@@ -94,28 +96,27 @@
                     <div class="customList">
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">
-                                Volunteer</p>
+                            <div><p class="customListText">Volunteer</p></div>
                         </div>
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">Keep track of books flow</p>
+                            <div><p class="customListText">Keep track of books flow</p></div>
                         </div>
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">Organize books</p>
+                            <div><p class="customListText">Organize books</p></div>
                         </div>
                         <div>
                             <img src="../assets/images/misc/work.png" class="customListIcon">
-                            <p class="customListText">Organize and run public events</p>
+                            <div><p class="customListText">Organize and run public events</p></div>
                         </div>
                     </div>
                 </div>
                 <p class="toggleText" id="experienceToggle">More</p>
-            </div>
+            </section>
 
             <!-- skills -->
-            <div class="section">
+            <section class="section" id="skillSection">
                 <h1><span>Skills</span></h1>
 
                 <div class="row">
@@ -298,19 +299,19 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <!-- projects -->
-            <div class="section">
+            <!-- projects (working on vertical alignment) -->
+            <section class="section">
                 <h1><span>Some Cool Stuff</span></h1>
                 <p class="greeting">
                     Followings are some of my projects. They are both school-related projects and extracurricular ones that I do on my own to practice the skills that I learn outside of school.
                 </p>
 
-                <table class="projectsTable">
-                    <!-- default = always appear -->
-                    <tr>
-                        <td class="project">
+                <!-- default = always appear -->
+                <div class="projects">
+                    <div class="row">
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 Dark Chroma
                             </p>
@@ -331,8 +332,8 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                        <td class="project" id="fileTransferApplicationProject">
+                        </div>
+                        <div class="col-sm-6 project" id="fileTransferApplicationProject">
                             <p class="projectTitle">
                                 File Transfer Application
                             </p>
@@ -347,10 +348,10 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="project">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 MIPS Converter
                             </p>
@@ -365,8 +366,8 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                        <td class="project">
+                        </div>
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 Morse Mastering
                             </p>
@@ -381,12 +382,14 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                    </tr>
+                        </div>
+                    </div>
+                </div>
 
-                    <!-- hidden unless click to show more -->
-                    <tr class="projectsHidden">
-                        <td class="project">
+                <!-- hidden unless click to show more -->
+                <div class="projectsHidden">
+                    <div class="row">
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 Tickets Reservation System
                             </p>
@@ -401,8 +404,8 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                        <td class="project">
+                        </div>
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 E-Commerce
                             </p>
@@ -411,10 +414,10 @@
                                     This project is a small E-Commerce database using Java embedded with <span class="projectType">MySQL (JDBC</span> and <span class="projectType">JPA.)</span>
                                 </p>
                             </div>
-                        </td>
-                    </tr>
-                    <tr class="projectsHidden">
-                        <td class="project">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 Flights Map
                             </p>
@@ -429,8 +432,8 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                        <td class="project">
+                        </div>
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 Calendar
                             </p>
@@ -445,10 +448,10 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                    </tr>
-                    <tr class="projectsHidden">
-                        <td class="project">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 Ticket To Knowhere
                             </p>
@@ -463,8 +466,8 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                        <td class="project">
+                        </div>
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 Red Black Tree
                             </p>
@@ -479,10 +482,10 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                    </tr>
-                    <tr class="projectsHidden">
-                        <td class="project">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 Health Score
                             </p>
@@ -497,8 +500,8 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                        <td class="project">
+                        </div>
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 Chat Room
                             </p>
@@ -513,10 +516,10 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                    </tr>
-                    <tr class="projectsHidden">
-                        <td class="project" id="kwicProject">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 project" id="kwicProject">
                             <p class="projectTitle">
                                 KWIC System
                             </p>
@@ -531,8 +534,8 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                        <td class="project">
+                        </div>
+                        <div class="col-sm-6 project">
                             <p class="projectTitle">
                                 Cyberminer
                             </p>
@@ -547,15 +550,16 @@
                                     </a>
                                 </p>
                             </div>
-                        </td>
-                    </tr>
-                </table>
+                        </div>
+                    </div>
+                </div>
+
 
                 <p class="toggleText" id="projectsToggle">More</p>
-            </div>
+            </section>
 
             <!-- awards -->
-            <div class="section">
+            <section class="section">
                 <h1><span>Awards</span></h1>
                 <p class="greeting">
                     As a student at
@@ -565,31 +569,35 @@
                 <div class="customList">
                     <div>
                         <img src="../assets/images/misc/award.png" class="customListIcon">
-                        <p class="customListText"><a href="https://www.utdallas.edu/news/2015/3/13-31446_More-than-1100-Students-Earn-Spots-on-Deans-List-f_story-wide.html" target="_blank">Fall 2014 Dean's List</a>
-                            with the Excellence in Education Scholarship for this semester</p>
+                        <div>
+                            <p class="customListText"><a href="https://www.utdallas.edu/news/2015/3/13-31446_More-than-1100-Students-Earn-Spots-on-Deans-List-f_story-wide.html" target="_blank">Fall 2014 Dean's List</a>
+                                with the Excellence in Education Scholarship for this semester</p>
+                        </div>
                     </div>
                     <div>
                         <img src="../assets/images/misc/award.png" class="customListIcon">
-                        <p class="customListText"><a href="http://www.utdallas.edu/news/2016/3/4-31922_More-than-1200-Students-Earn-Spots-on-Deans-List-f_story-wide.html?WT.mc_id=NewsEmail" target="_blank">Fall 2015 Dean's List</a>
-                            with the Excellence in Education Scholarship for this semester</p>
+                        <div>
+                            <p class="customListText"><a href="http://www.utdallas.edu/news/2016/3/4-31922_More-than-1200-Students-Earn-Spots-on-Deans-List-f_story-wide.html?WT.mc_id=NewsEmail" target="_blank">Fall 2015 Dean's List</a>
+                                with the Excellence in Education Scholarship for this semester</p>
+                        </div>
                     </div>
                     <div>
                         <img src="../assets/images/misc/award.png" class="customListIcon">
-                        <p class="customListText">2017 Wells Fargo Endowed Scholarship</p>
+                        <div><p class="customListText">2017 Wells Fargo Endowed Scholarship</p></div>
                     </div>
                     <div>
                         <img src="../assets/images/misc/award.png" class="customListIcon">
-                        <p class="customListText">2018 Selden Leavell Endowed Scholarship</p>
+                        <div><p class="customListText">2018 Selden Leavell Endowed Scholarship</p></div>
                     </div>
                     <div>
                         <img src="../assets/images/misc/award.png" class="customListIcon">
-                        <p class="customListText">2018 Mason Brown Family Foundation Endowed Scholarship</p>
+                        <div><p class="customListText">2018 Mason Brown Family Foundation Endowed Scholarship</p></div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- contact -->
-            <div class="section">
+            <section class="section">
                 <h1><span>Contact Me</span></h1>
                 <form>
                     <input name="name" placeholder="Name" type="text" required /><br/>
@@ -598,10 +606,10 @@
                     <textarea name="message" placeholder="Message"></textarea>
                     <input type="submit" value="SEND" class="submit"/>
                 </form>
-            </div>
+            </section>
 
             <!-- follow -->
-            <div class="section" id="contacts">
+            <section class="section" id="contacts">
                 <h1><span>Follow Me</span></h1>
                 <div>
                     <a href="https://github.com/baonguyen96" target="_blank">
@@ -620,16 +628,13 @@
                         <img alt="500px" src="../assets/images/media-icons/youtube.png" />
                     </a>
                 </div>
-            </div>
+            </section>
 
             <!-- copyright -->
-            <div class="copyright">
+            <section class="copyright">
                 &copy; 2018 by Bao Nguyen. All rights reserved.
-            </div>
+            </section>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     </body>
 </html>

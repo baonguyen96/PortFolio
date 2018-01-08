@@ -30,6 +30,7 @@ h1 span {
 p {
     padding: 0;
     margin: 0 0 5px;
+    line-height: 1.25em;
 }
 
 .img-circle {
@@ -39,7 +40,7 @@ p {
 
 .section {
     background-color: #fff;
-    padding: 20px 10%;
+    padding: 20px 10% 30px;
     border-radius: 10px;
     margin: 0 auto 20px;
 }
@@ -67,10 +68,8 @@ p {
     text-outline: 1px 1px white;
 }
 
-table {
-    border: none;
-    border-spacing: 0 5px;
-    width: 100%;
+#skillSection .row div{
+    margin-bottom: 7px;
 }
 
 .language {
@@ -124,25 +123,32 @@ a:hover, a:visited {
     color: #EE2364;
 }
 
+.greeting {
+    text-align: center;
+}
+
 .customList {
-    margin-top: 10px;
-    margin-left: 15%;
+    margin: 10px 20% 0;
+}
+
+.customList div {
+    display: table;
 }
 
 .customList div div {
-    width: 80%;
-    margin-left: 20%;
+    display: table-cell;
 }
 
 .customListIcon {
     height: 25px;
-    margin-right: 5px;
+    margin-right: 10px;
+    display: table-cell;
 }
 
 .customListText {
     display: inline;
     position: relative;
-    top: 3px;
+    top: -5px;
 }
 
 .toggleText {
@@ -156,14 +162,9 @@ a:hover, a:visited {
     cursor: pointer;
 }
 
-.greeting {
-    text-align: center;
-}
-
-.projectsTable {
+.projects {
     border-spacing: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .projectsHidden {
@@ -171,11 +172,12 @@ a:hover, a:visited {
 }
 
 .project {
-    width: 50%;
-    height: 180px;
+    min-height: 250px;
     padding: 10px;
     background-color: #FEE6DA;
-    border-radius: 10px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    border-radius: 20px;
 }
 
 .projectTitle {
@@ -204,10 +206,6 @@ a:hover, a:visited {
 .experienceTitle {
     font-weight: bold;
     font-style: italic;
-}
-
-.experienceTitle tr td {
-    width: 33%;
 }
 
 .company {
@@ -266,6 +264,10 @@ textarea, input[type=text] {
     background-color: #F59C68;
 }
 
+#contacts div {
+    margin-bottom: 10px;
+}
+
 #contacts img {
     height: 50px;
     width: 50px;
@@ -292,14 +294,28 @@ textarea, input[type=text] {
 }
 
 /* mobile */
-@media only screen and
-(max-width: 600px) {
+@media only screen and (max-width: 1100px) {
+    .customList {
+        margin-left: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
     body {
         padding: 10px 3%;
     }
 
     .section {
-        padding: 15px 10px;
+        padding: 15px 15px 25px;
+    }
+
+    .experienceTitle {
+        text-align: center;
+    }
+
+    .period {
+        text-align: center;
     }
 
     .language {
@@ -311,7 +327,19 @@ textarea, input[type=text] {
     }
 
     .customList {
-        margin-left: 5%;
+        margin: 10px 0 0;
+    }
+
+    .projects {
+        padding: 10px;
+    }
+
+    .project {
+        margin: 0;
+    }
+
+    #contacts div {
+        margin-top: 0;
     }
 
     #contacts img {
