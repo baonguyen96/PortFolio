@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    // $(".projectDescription").hide();
+
     $(".toggleText").click(function () {
         var state = $(this).text();
         var id = $(this).attr("id");
@@ -27,9 +29,11 @@ $(document).ready(function () {
 
     $(".project").hover(
         function () {
+            $(this).find(".projectTitle").hide();
             $(this).find(".projectDescription").show();
         },
         function () {
+            $(this).find(".projectTitle").show();
             $(this).find(".projectDescription").hide();
         }
     );
