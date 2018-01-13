@@ -1,25 +1,23 @@
 $(document).ready(function () {
-    // $(".projectDescription").hide();
-
     $(".toggleText").click(function () {
         var state = $(this).text();
         var id = $(this).attr("id");
 
         if(state === "More") {
             if(id === "projectsToggle") {
-                $(".projectsHidden").show();
+                $(".projectsHidden").slideDown();
             }
             else {
-                $(".experienceHidden").show();
+                $(".experienceHidden").slideDown();
             }
             state = "Less";
         }
         else {
             if(id === "projectsToggle") {
-                $(".projectsHidden").hide();
+                $(".projectsHidden").slideUp();
             }
             else {
-                $(".experienceHidden").hide();
+                $(".experienceHidden").slideUp();
             }
             state = "More";
         }

@@ -78,7 +78,6 @@ p {
     width: 30%;
     position: relative;
     top: 3px;
-    /*word-wrap: break-word;*/
     text-align: right;
 }
 
@@ -118,12 +117,26 @@ a:link {
     color: #F16E80;
 }
 
-a:hover, a:visited {
+a:hover {
+    color: black !important;
+}
+
+a:visited {
     color: #EE2364;
 }
 
 .greeting {
     text-align: center;
+}
+
+.customListItem {
+    background-color: #787575;
+    display: table;
+}
+
+.customListItem div {
+    display: table-cell;
+    background-color: red;
 }
 
 .customList {
@@ -137,6 +150,10 @@ a:hover, a:visited {
 .customList div div {
     display: table-cell;
 }
+
+/*.customListTextWrapper {*/
+    /*display: table-cell;*/
+/*}*/
 
 .customListIcon {
     height: 25px;
@@ -206,7 +223,7 @@ a:hover, a:visited {
 
 .projectType {
     font-style: italic;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 .experienceHidden {
@@ -234,12 +251,20 @@ hr {
     background-color: #efefef;
 }
 
-form {
+#contactForm {
     text-align: center;
     margin-top: 0;
 }
 
-input, textarea {
+#contactForm * {
+    width: 80%;
+}
+
+#contactForm input[type=text], #contactSubmit, #contactSubmitAlert {
+    min-height: 50px;
+}
+
+#contactForm input, #contactMessage {
     box-sizing: border-box;
     margin-bottom: 10px;
     font-size: 11pt;
@@ -248,32 +273,42 @@ input, textarea {
     background-color: #efefef;
     color: #787575;
     border-radius: 5px;
-    width: 80%;
     outline: none;
 }
 
-textarea {
+#contactMessage {
     height: 120px;
     resize: none;
+    margin-bottom: 3px;
 }
 
-textarea, input[type=text] {
+#contactMessage, input[type=text] {
     font-family: Arial, serif;
 }
 
-.submit {
+#contactSubmit {
     box-sizing: border-box;
-    background-color: #FAAF85;
+    background-color: #FAAF85 !important;
     border-radius: 5px;
     cursor: pointer;
-    color: white;
+    color: white !important;
     border: none;
     outline: none;
     font-weight: bold;
+    margin-top: 15px;
 }
 
-.submit:hover {
-    background-color: #F59C68;
+#contactSubmit:hover {
+    background-color: #F59C68 !important;
+}
+
+#contactSubmitAlert {
+    margin: 15px auto;
+    display: none;
+}
+
+#botPrevention {
+    display: none;
 }
 
 #contacts div {
@@ -351,7 +386,7 @@ textarea, input[type=text] {
     }
 
     .projects {
-        padding: 10px 0 0 0;
+        padding: 0 10px;
     }
 
     .projectsHidden {
@@ -363,8 +398,8 @@ textarea, input[type=text] {
         min-height: 100px;
     }
 
-    input, textarea {
-        width: 100%;
+    #contactForm * {
+        width: 95%;
     }
 
     #contacts div {
