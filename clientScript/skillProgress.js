@@ -64,7 +64,7 @@ var skills = {
     },
     "php": {
         "name": "PHP",
-        "value": "30%"
+        "value": "45%"
     },
     "msOffice": {
         "name": "MS Office",

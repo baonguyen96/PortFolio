@@ -11,6 +11,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
         <script src="../clientScript/showHide.js"></script>
         <script src="../clientScript/skillProgress.js"></script>
+        <script src="../clientScript/smoothScroll.js"></script>
         <script src="../clientScript/formSubmit.js"></script>
     </head>
 
@@ -548,7 +549,7 @@
                             </p>
                             <div class="projectDescription">
                                 <p>
-                                    This group project is a web based solution to the <a href="" target="_blank">Key Word in Context</a> problem, implemented using <span class="projectType">HTML, CSS, JavaScript,</span> and <span class="projectType">JSP</span>.
+                                    This group project is a web based solution to the <a href="https://en.wikipedia.org/wiki/Key_Word_in_Context" target="_blank">Key Word in Context</a> problem, implemented using <span class="projectType">HTML, CSS, JavaScript,</span> and <span class="projectType">JSP</span>.
                                 </p>
                                 <p>
                                     Check out on
@@ -703,8 +704,7 @@
             <section class="section">
                 <h1><span>Contact Me</span></h1>
 
-                <!-- use AJAX instead -->
-                <form id="contactForm" action="../serverScript/mail.php" method="post">
+                <form id="contactForm" action="" method="post">
                     <input name="name" placeholder="Name" type="text" id="contactName" required/><br/>
                     <input name="email" placeholder="Email" type="email" id="contactEmail" required/><br/>
                     <input name="subject" placeholder="Subject" type="text" id="contactSubject" required><br/>
