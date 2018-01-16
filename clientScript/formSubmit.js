@@ -17,7 +17,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "../serverScript/mail.php",
+            url: "../serverScript/php/mail.php",
             data: formData,
             dataType: "json",
             success: function (data) {
@@ -39,7 +39,7 @@ function processServerResponse(data) {
         setupAlert("alert-success", "Congratulation!", "Your message has been sent.");
     }
     else {
-        setupAlert("alert-danger", "Sorry!", "We are unable to process your message.");
+        setupAlert("alert-danger", "Sorry!", "We are unable to process your message." + json);
     }
 }
 

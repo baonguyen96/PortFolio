@@ -6,7 +6,7 @@
  */
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-require 'PHPMailer/vendor/autoload.php';
+require 'vendor/autoload.php';
 
 $bot = $_POST["bot"];
 $result = "";
@@ -14,7 +14,7 @@ $result = "";
 // send if no bot
 if($bot === "") {
     // adjust json file location accordingly
-    $json = file_get_contents("../../mailer.json");
+    $json = file_get_contents("../../../mailer.json");
     $credentials = json_decode($json, true);
 
     // receiver

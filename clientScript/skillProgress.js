@@ -17,7 +17,8 @@ var skills = {
     },
     "python": {
         "name": "Python",
-        "value": "60%"},
+        "value": "60%"
+    },
     "android": {
         "name": "Android",
         "value": "70%"
@@ -77,6 +78,14 @@ var skills = {
     "linux": {
         "name": "Linux",
         "value": "70%"
+    },
+    "ajax": {
+        "name": "AJAX",
+        "value": "80%"
+    },
+    "nodeJS": {
+        "name": "NodeJS",
+        "value": "10%"
     }
 };
 
