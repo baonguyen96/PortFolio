@@ -129,14 +129,14 @@ a:visited {
     text-align: center;
 }
 
-.customListItem {
-    background-color: #787575;
-    display: table;
-}
+/*.customListItem {*/
+    /*background-color: #787575;*/
+    /*display: table;*/
+/*}*/
 
 .customListItem div {
     display: table-cell;
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .customList {

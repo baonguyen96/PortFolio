@@ -10,9 +10,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
         <script src="../clientScript/showHide.js"></script>
-        <script src="../clientScript/skillProgress.js"></script>
         <script src="../clientScript/smoothScroll.js"></script>
         <script src="../clientScript/formSubmit.js"></script>
+
+        <script src="../clientScript/skillProgress.js"></script>
+        <script src="../clientScript/awards.js"></script>
+        <script src="../clientScript/majorCourses.js"></script>
     </head>
 
     <body>
@@ -41,7 +44,9 @@
             <!-- work experience -->
             <section class="section">
                 <h1><span>Work Experience</span></h1>
-                <div>
+
+                <!--  -->
+                <div class="experience">
                     <div class="row experienceTitle">
                         <div class="col-sm-4 jobTitle">Quality Assurance Intern</div>
                         <div class="col-sm-4 company">Loopback Analytics</div>
@@ -142,205 +147,6 @@
             <!-- skills -->
             <section class="section" id="skillsSection">
                 <h1><span>Skills</span></h1>
-
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="java">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="c">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="cpp">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="cSharp">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="python">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="php">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="html">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="css">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="javascript">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="jQuery">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="ajax">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="nodeJS">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="mySQL">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="jdbc">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="jUnit">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="testNG">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="github">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="selenium">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="windows">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="linux">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="android">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="language"></span>
-                        <div class="progressBackground">
-                            <div class="progressValue" id="msOffice">
-                                <div class="progressValueText"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
 
             <!-- projects -->
@@ -596,126 +402,25 @@
                     </div>
                 </div>
 
-
                 <p class="toggleText" id="projectsToggle">More</p>
             </section>
 
             <!-- awards -->
-            <section class="section">
+            <section class="section" id="awardsSection">
                 <h1><span>Awards</span></h1>
                 <p class="greeting">
                     As a student at
                     <a href="http://www.utdallas.edu/" target="_blank">The University of Texas at Dallas</a>,
                     I am honored to receive several awards:
                 </p>
-                <div class="customList">
-                    <div>
-                        <img src="../assets/images/misc/award.png" class="customListIcon">
-                        <div>
-                            <p class="customListText"><a href="https://www.utdallas.edu/news/2015/3/13-31446_More-than-1100-Students-Earn-Spots-on-Deans-List-f_story-wide.html" target="_blank">Fall 2014 Dean's List</a>
-                                with the Excellence in Education Scholarship for this semester</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/award.png" class="customListIcon">
-                        <div>
-                            <p class="customListText"><a href="http://www.utdallas.edu/news/2016/3/4-31922_More-than-1200-Students-Earn-Spots-on-Deans-List-f_story-wide.html?WT.mc_id=NewsEmail" target="_blank">Fall 2015 Dean's List</a>
-                                with the Excellence in Education Scholarship for this semester</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/award.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">2017 Wells Fargo Endowed Scholarship</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/award.png" class="customListIcon">
-                        <div><p class="customListText">2018 Selden Leavell Endowed Scholarship</p></div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/award.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">2018 Mason Brown Family Foundation Endowed Scholarship</p>
-                        </div>
-                    </div>
-                </div>
             </section>
 
             <!-- courses -->
-            <section class="section">
+            <section class="section" id="coursesSection">
                 <h1><span>Major Courses</span></h1>
                 <p class="greeting">
                     During my years at university, among many courses that I have taken, followings are the most significant:
                 </p>
-                <div class="customList">
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">Data Structures and Algorithms</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">Operating System Concepts</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">Database Systems</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">Computer Architecture</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">Advanced Computer Network Security</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">C/C++ in UNIX Environment</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">Software Architecture</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">Requirements Engineering</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">Software Testing and Quality Assurance</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">Software Project Planning and Management</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../assets/images/misc/course.png" class="customListIcon">
-                        <div>
-                            <p class="customListText">Program Analysis</p>
-                        </div>
-                    </div>
-                </div>
             </section>
 
             <!-- contact -->
@@ -769,5 +474,47 @@
             </section>
         </div>
 
+
+        <!--------------------------------------------------------------------------------
+            hidden div that contains all the templates to be reused
+            should separate to a separated html
+        ---------------------------------------------------------------------------------->
+        <div id="templatesContainer" hidden>
+
+            <!-- template for each row of the skill section -->
+            <div id="skillRowTemplate">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="language"></span>
+                        <div class="progressBackground">
+                            <div class="progressValue">
+                                <div class="progressValueText"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 skill2">
+                        <span class="language"></span>
+                        <div class="progressBackground">
+                            <div class="progressValue">
+                                <div class="progressValueText"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- template for custom list -->
+            <div id="customListTemplate">
+                <div class="customList">
+                    <div class="customListItem">
+                        <img src="" class="customListIcon">
+                        <div>
+                            <p class="customListText"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </body>
 </html>

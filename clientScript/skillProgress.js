@@ -1,99 +1,114 @@
-var skills = {
-    "java": {
+var skills = [
+    {
         "name": "Java",
         "value": "90%"
     },
-    "c": {
+    {
         "name": "C",
         "value": "50%"
     },
-    "cpp": {
+    {
         "name": "C++",
         "value": "80%"
     },
-    "cSharp": {
+    {
         "name": "C#",
         "value": "50%"
     },
-    "python": {
+    {
         "name": "Python",
         "value": "60%"
     },
-    "android": {
-        "name": "Android",
-        "value": "70%"
-    },
-    "html": {
-        "name": "HTML",
-        "value": "80%"
-    },
-    "css": {
-        "name": "CSS",
-        "value": "80%"
-    },
-    "javascript": {
-        "name": "JavaScript",
-        "value": "80%"
-    },
-    "jQuery": {
-        "name": "jQuery",
-        "value": "80%"
-    },
-    "mySQL": {
-        "name": "MySQL",
-        "value": "50%"
-    },
-    "jdbc": {
-        "name": "JDBC",
-        "value": "80%"
-    },
-    "jUnit": {
-        "name": "JUnit",
-        "value": "90%"
-    },
-    "testNG": {
-        "name": "TestNG",
-        "value": "70%"
-    },
-    "github": {
-        "name": "GitHub",
-        "value": "100%"
-    },
-    "selenium": {
-        "name": "Selenium",
-        "value": "90%"
-    },
-    "php": {
+    {
         "name": "PHP",
         "value": "45%"
     },
-    "msOffice": {
+    {
+        "name": "HTML",
+        "value": "80%"
+    },
+    {
+        "name": "CSS",
+        "value": "80%"
+    },
+    {
+        "name": "JavaScript",
+        "value": "80%"
+    },
+    {
+        "name": "jQuery",
+        "value": "80%"
+    },
+    {
+        "name": "AJAX",
+        "value": "70%"
+    },
+    {
+        "name": "NodeJS",
+        "value": "20%"
+    },
+    {
+        "name": "MySQL",
+        "value": "50%"
+    },
+    {
+        "name": "JDBC",
+        "value": "80%"
+    },
+    {
+        "name": "JUnit",
+        "value": "90%"
+    },
+    {
+        "name": "TestNG",
+        "value": "70%"
+    },
+    {
+        "name": "GitHub",
+        "value": "100%"
+    },
+    {
+        "name": "Selenium",
+        "value": "90%"
+    },
+    {
+        "name": "Android",
+        "value": "75%"
+    },
+    {
         "name": "MS Office",
         "value": "90%"
     },
-    "windows": {
+    {
         "name": "Windows",
         "value": "90%"
     },
-    "linux": {
+    {
         "name": "Linux",
         "value": "70%"
-    },
-    "ajax": {
-        "name": "AJAX",
-        "value": "80%"
-    },
-    "nodeJS": {
-        "name": "NodeJS",
-        "value": "10%"
     }
-};
+];
 
 $(document).ready(function () {
-    for (var id in skills) {
-        var element = $("#" + id);
-        element.parent().siblings(".language").text(skills[id]["name"]);
-        element.width(skills[id]["value"]);
-        element.find(".progressValueText").text(skills[id]["value"]);
+    var skillsSection = $("#skillsSection");
+    var row = $("#skillRowTemplate").find(".row");
+
+    for(var i = 0; i < skills.length; i += 2) {
+        var newRow = row.clone();
+
+        // first skill
+        var firstSkill = newRow.find(".col-sm-6").eq(0);
+        firstSkill.find(".language").text(skills[i].name);
+        firstSkill.find(".progressValue").width(skills[i].value);
+        firstSkill.find(".progressValueText").text(skills[i].value);
+
+        // second skill
+        var secondSkill = newRow.find(".col-sm-6").eq(1);
+        secondSkill.find(".language").text(skills[i + 1].name);
+        secondSkill.find(".progressValue").width(skills[i + 1].value);
+        secondSkill.find(".progressValueText").text(skills[i + 1].value);
+
+        // newRow = "<div>" + i + "</div>";
+        skillsSection.append(newRow);
     }
 });
