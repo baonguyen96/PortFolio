@@ -8,7 +8,7 @@ var workExperienceList = [
             "Use Selenium IDE and WebDriver for automated testing",
             "Maintain and update Selenese scripts",
             "Migrate Selenese scripts to Java OOP to support automation testing on multiple browsers",
-            "Implement additional features such as self-healing and report logging"
+            "Implement additional features such as self-healing and report logging to Excel via Apache POI"
         ]
     },
     {
@@ -38,6 +38,7 @@ $(function () {
     var experienceToggle = $("#experienceToggle");
     var experience = $("#experienceTemplate").clone().find(".experience");
 
+    // loop through all work experience
     for(var currentExperience = 0; currentExperience < workExperienceList.length; currentExperience++) {
         var newExperience = experience.clone();
 
@@ -57,6 +58,7 @@ $(function () {
         var currentDuties = workExperienceList[currentExperience].duties;
         item.find(".customListIcon").attr("src", "../assets/images/misc/work.png");
 
+        // add all duties of current work experience
         for(var duty = 0; duty < currentDuties.length; duty++) {
             var newItem = item.clone();
             newItem.find(".customListText").text(currentDuties[duty]);

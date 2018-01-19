@@ -47,6 +47,10 @@ var skills = [
         "name": "NodeJS",
         "value": "20%"
     },
+    // {
+    //     "name": "ReactJS",
+    //     "value": "20%"
+    // },
     {
         "name": "MySQL",
         "value": "50%"
@@ -93,7 +97,7 @@ $(document).ready(function () {
     var skillsSection = $("#skillsSection");
     var row = $("#skillRowTemplate").find(".row");
 
-    // loop through each row (2 projects) -> have to be even (how to fix?)
+    // loop through each row (2 projects)
     for(var rowIndex = 0; rowIndex < skills.length; rowIndex += 2) {
         var newRow = row.clone();
         newRow.find(".skill").eq(0).hide();
