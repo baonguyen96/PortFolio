@@ -93,22 +93,21 @@ $(document).ready(function () {
     var skillsSection = $("#skillsSection");
     var row = $("#skillRowTemplate").find(".row");
 
-    for(var i = 0; i < skills.length; i += 2) {
+    // loop through each row (2 projects) -> have to be even (how to fix?)
+    for(var rowIndex = 0; rowIndex < skills.length; rowIndex += 2) {
         var newRow = row.clone();
+        newRow.find(".skill").eq(0).hide();
 
-        // first skill
-        var firstSkill = newRow.find(".col-sm-6").eq(0);
-        firstSkill.find(".language").text(skills[i].name);
-        firstSkill.find(".progressValue").width(skills[i].value);
-        firstSkill.find(".progressValueText").text(skills[i].value);
+        // add 2 projects per row
+        for(var skillIndex = 0; skillIndex < 2; skillIndex++) {
+            var skillData = skills[rowIndex + skillIndex];
+            var currentSkill = row.find(".skill").clone();
+            currentSkill.find(".language").text(skillData.name);
+            currentSkill.find(".progressValue").width(skillData.value);
+            currentSkill.find(".progressValueText").text(skillData.value);
+            newRow.append(currentSkill);
+        }
 
-        // second skill
-        var secondSkill = newRow.find(".col-sm-6").eq(1);
-        secondSkill.find(".language").text(skills[i + 1].name);
-        secondSkill.find(".progressValue").width(skills[i + 1].value);
-        secondSkill.find(".progressValueText").text(skills[i + 1].value);
-
-        // newRow = "<div>" + i + "</div>";
         skillsSection.append(newRow);
     }
 });
