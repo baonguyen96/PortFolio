@@ -100,7 +100,7 @@ $(document).ready(function () {
     // loop through each row (2 projects)
     for(var rowIndex = 0; rowIndex < skills.length; rowIndex += 2) {
         var newRow = row.clone();
-        newRow.find(".skill").eq(0).hide();
+        newRow.find(".skill").eq(0).remove();
 
         // add 2 projects per row
         for(var skillIndex = 0; skillIndex < 2; skillIndex++) {

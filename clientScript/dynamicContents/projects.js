@@ -56,7 +56,7 @@ var projectsList = [
     },
     {
         "title": "Ticket To Knowhere",
-        "intro": createIntro("A docking software system that tracks parking lot's activities and generates violation tickets, written in C++", ["C++"]),
+        "intro": createIntro("A docking software system that tracks parking lot's activities and generates violation tickets, written in C++.", ["C++"]),
         "links": [
             createLinkText("https://github.com/baonguyen96/TicketToKnowhere")
         ]
@@ -126,7 +126,7 @@ function addProjectsToGroup(groupElement, fromProjectIndex, toProjectIndex) {
     // loop through each row (2 projects each)
     for(var rowIndex = fromProjectIndex; rowIndex < toProjectIndex; rowIndex += 2) {
         var newRow = row.clone();
-        newRow.find(".project").eq(0).hide();
+        newRow.find(".project").eq(0).remove();
 
         // on each row, add 2 projects
         for(var projectIndex = 0; projectIndex < 2; projectIndex++) {

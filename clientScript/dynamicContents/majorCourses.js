@@ -24,6 +24,6 @@ $(function () {
         customList.append(newItem);
     }
 
-    item.hide();
+    customList.find(item).eq(0).remove();
     coursesSection.append(customList);
 });

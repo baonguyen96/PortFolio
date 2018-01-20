@@ -8,18 +8,16 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
+include "emailCredentials.php";
+
 $bot = $_POST["bot"];
 $result = "";
 
 // send if no bot
 if($bot === "") {
-    // adjust json file location accordingly
-    $json = file_get_contents("../../../mailer.json");
-    $credentials = json_decode($json, true);
-
     // receiver
     $myName = $credentials["name"];
-    $myUsername = $credentials["username"];
+    $myUsername = $credentials["email"];
     $myPassword = $credentials["password"];
 
     // sender

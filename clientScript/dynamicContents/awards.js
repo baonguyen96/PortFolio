@@ -7,6 +7,7 @@ var awards = [
     "2018 Mason Brown Family Foundation Endowed Scholarship"
 ];
 
+
 $(function () {
     var awardsSection = $("#awardsSection");
     var customList = $("#customListTemplate").clone().find(".customList");
@@ -19,6 +20,6 @@ $(function () {
         customList.append(newItem);
     }
 
-    item.hide();
+    customList.find(item).eq(0).remove();
     awardsSection.append(customList);
 });

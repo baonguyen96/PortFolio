@@ -4,7 +4,6 @@ var workExperienceList = [
         "company": "Loopback Analytics",
         "period": "May 2017 - Present",
         "duties": [
-            "Perform various testing techniques for software releases",
             "Use Selenium IDE and WebDriver for automated testing",
             "Maintain and update Selenese scripts",
             "Migrate Selenese scripts to Java OOP to support automation testing on multiple browsers",
@@ -36,26 +35,27 @@ var workExperienceList = [
 
 $(function () {
     var experienceToggle = $("#experienceToggle");
-    var experience = $("#experienceTemplate").clone().find(".experience");
+    var experienceTemplate = $("#experienceTemplate").clone().find(".experience");
 
     // loop through all work experience
-    for(var currentExperience = 0; currentExperience < workExperienceList.length; currentExperience++) {
-        var newExperience = experience.clone();
+    for(var i = 0; i < workExperienceList.length; i++) {
+        var experienceData = workExperienceList[i];
+        var currentExperience = experienceTemplate.clone();
 
         // only show the first experience by default
-        if(currentExperience > 0) {
-            newExperience.removeClass("experience");
-            newExperience.addClass("experienceHidden");
-            newExperience.prepend("<hr/>");
+        if(i > 0) {
+            currentExperience.removeClass("experience");
+            currentExperience.addClass("experienceHidden");
+            currentExperience.prepend("<hr/>");
         }
 
-        newExperience.find(".jobTitle").text(workExperienceList[currentExperience].jobTitle);
-        newExperience.find(".company").text(workExperienceList[currentExperience].company);
-        newExperience.find(".period").text(workExperienceList[currentExperience].period);
+        currentExperience.find(".jobTitle").text(experienceData.jobTitle);
+        currentExperience.find(".company").text(experienceData.company);
+        currentExperience.find(".period").text(experienceData.period);
 
         var customList = $("#customListTemplate").clone().find(".customList");
         var item = customList.find(".customListItem");
-        var currentDuties = workExperienceList[currentExperience].duties;
+        var currentDuties = experienceData.duties;
         item.find(".customListIcon").attr("src", "../assets/images/misc/work.png");
 
         // add all duties of current work experience
@@ -65,11 +65,11 @@ $(function () {
             customList.append(newItem);
         }
 
-        item.hide();
-        newExperience.append(customList);
-        experienceToggle.before(newExperience);
+        customList.find(item).eq(0).remove();
+        currentExperience.append(customList);
+        experienceToggle.before(currentExperience);
     }
 
-    experience.hide();
+    experienceTemplate.remove();
 
 });

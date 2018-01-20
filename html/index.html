@@ -10,15 +10,24 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
 
-        <script src="../clientScript/experience.js"></script>
-        <script src="../clientScript/skillProgress.js"></script>
-        <script src="../clientScript/projects.js"></script>
-        <script src="../clientScript/awards.js"></script>
-        <script src="../clientScript/majorCourses.js"></script>
+        <!--
+            dynamic page content render section
+            preferred method:
+                each of these js file in this section still implements their own feature
+                have a render.js file that reference all these individual js files
+                then have a single script tag that include the render.js instead
+         -->
+        <script src="../clientScript/dynamicContents/experience.js"></script>
+        <script src="../clientScript/dynamicContents/skillProgress.js"></script>
+        <script src="../clientScript/dynamicContents/projects.js"></script>
+        <script src="../clientScript/dynamicContents/awards.js"></script>
+        <script src="../clientScript/dynamicContents/majorCourses.js"></script>
+        <script src="../clientScript/functionality/emailContact.js"></script>
 
-        <script src="../clientScript/showHide.js"></script>
-        <script src="../clientScript/smoothScroll.js"></script>
-        <script src="../clientScript/formSubmit.js"></script>
+        <!-- page utilities/functionalities (not the content) -->
+        <script src="../clientScript/functionality/showHide.js"></script>
+        <script src="../clientScript/functionality/smoothScroll.js"></script>
+        <script src="../clientScript/functionality/formSubmit.js"></script>
     </head>
 
     <body>
@@ -117,7 +126,7 @@
                     <a href="https://www.linkedin.com/in/bao-nguyen96/" target="_blank">
                         <img alt="500px" src="../assets/images/media-icons/linkedin.png" />
                     </a>
-                    <a href="mailto:bntest96@gmail.com">
+                    <a href="" id="emailIcon">
                         <img alt="email" src="../assets/images/media-icons/gmail.png" />
                     </a>
                     <a href="https://500px.com/baonguyen9" target="_blank">
@@ -138,7 +147,9 @@
 
         <!--------------------------------------------------------------------------------
             hidden div that contains all the templates to be reused
-            should separate to a separated html
+            should separate to a separated templates.html file,
+            OR
+            just use ReactJS
         ---------------------------------------------------------------------------------->
         <div id="templatesContainer" hidden>
 

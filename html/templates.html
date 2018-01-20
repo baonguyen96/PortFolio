@@ -4,9 +4,66 @@
         <meta charset="UTF-8">
         <title>Templates</title>
         <script src="https://code.jquery.com/jquery-3.2.1.js"  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-        <script src="../clientScript/skillProgress.js"></script>
+        <script src="../clientScript/dynamicContents/skillProgress.js"></script>
     </head>
     <body>
+        <div id="templatesContainer" hidden>
 
+            <!-- template for each row of the skill section -->
+            <div id="skillRowTemplate">
+                <div class="row">
+                    <!-- left -->
+                    <div class="col-sm-6 skill">
+                        <span class="language"></span>
+                        <div class="progressBackground">
+                            <div class="progressValue">
+                                <div class="progressValueText"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right -->
+                </div>
+            </div>
+
+            <!-- template for custom list -->
+            <div id="customListTemplate">
+                <div class="customList">
+                    <div class="customListItem">
+                        <img src="" class="customListIcon">
+                        <div>
+                            <p class="customListText"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- template for experience -->
+            <div id="experienceTemplate">
+                <div class="experience">
+                    <div class="row experienceTitle">
+                        <div class="col-sm-4 jobTitle"></div>
+                        <div class="col-sm-4 company"></div>
+                        <div class="col-sm-4 period"></div>
+                    </div>
+                    <!-- customList -->
+                </div>
+            </div>
+
+            <!-- template for projects -->
+            <div id="projectTemplate">
+                <div class="row">
+                    <!-- left -->
+                    <div class="col-sm-6 project">
+                        <p class="projectTitle"></p>
+                        <div class="projectDescription">
+                            <p class="projectIntro"></p>
+                            <p class="projectLink"></p>
+                        </div>
+                    </div>
+                    <!-- right -->
+                </div>
+            </div>
+
+        </div>
     </body>
 </html>
