@@ -3,36 +3,40 @@ var projectsList = [
         "title": "Dark Chroma",
         "intro": createIntro("A Chrome extension that revert the color of the page (bright text on dark background) to reduce eye-strains from long working period.", ["Chrome extension"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/DarkChroma"),
-            createLinkText("https://chrome.google.com/webstore/detail/dark-chroma/jjknnbjoocbcgemnnjoaiifopndlcnbe", "Also available on", "Chrome Web Store")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/DarkChroma"),
+            createPointer() + createLinkText("https://chrome.google.com/webstore/detail/dark-chroma/jjknnbjoocbcgemnnjoaiifopndlcnbe", "Also available on", "Chrome Web Store", true)
         ]
     },
     {
         "title": "File Transfer Application",
         "intro": createIntro("This Java project implements a unique protocol for File Transfer between one Server and one Client utilizing Socket Programming, Connection Management, Reliable Communication, and Security (Public Key Crypto as well as Symmetric Key Crypto).", ["Java"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/FileTransferApplication")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/FileTransferApplication")
         ]
     },
     {
         "title": "MIPS Converter",
         "intro": createIntro("This Java, Java Swing project provides conversion from and to Java, MIPS, and Machine codes. It recognizes different instruction types (I-, R-, or J-) from MIPS or Binary codes and provides the other two equivalences on a GUI.", ["Java", "Java Swing"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/MipsConverter")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/MipsConverter")
         ]
     },
     {
         "title": "Morse Mastering",
         "intro": createIntro("An Android application that teaches users the Morse code and translates between Morse and normal text. It also provides some Android services, such as Notification and Network Communication.", ["Android application"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/MorseMastering")
+            createPointer() + createLinkText("https://github.com/baonguyen96/MorseMastering")
         ]
     },
     {
         "title": "Tickets Reservation System",
         "intro": createIntro("This C++ project  simulates the current online ticketing systems - that either reserves the seats with receipts then flies the plane when full, or puts the selected seats onto the wait-list if those seats are not available. The prices are based on the type of seat(s) and the age of user.", ["C++"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/AirplaneTicketsReservingSystem")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/AirplaneTicketsReservingSystem")
         ]
     },
     {
@@ -44,59 +48,77 @@ var projectsList = [
         "title": "Flights Map",
         "intro": createIntro("This C# project represents a map of flights that connect different cities. Each city is a vertex, and each flight is an edge in the graph. It utilizes Dijkstra's algorithm to find the 3 shortest paths (either by flight duration or by total distance) between given 2 cities.", ["C#"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/FlightGraph")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/FlightGraph")
         ]
     },
     {
         "title": "Calendar",
         "intro": createIntro("Simple Java, JavaFX program to calculate the difference between 2 dates, or the second date given the first one and the duration.", ["Java", "JavaFX"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/Calendar")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/Calendar")
         ]
     },
     {
         "title": "Ticket To Knowhere",
         "intro": createIntro("A docking software system that tracks parking lot's activities and generates violation tickets, written in C++.", ["C++"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/TicketToKnowhere")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/TicketToKnowhere")
         ]
     },
     {
         "title": "Red Black Tree",
         "intro": createIntro(createLinkText("https://en.wikipedia.org/wiki/Red%E2%80%93black_tree", "This is my own implementation of the", "Red Black Tree") + " data structure in Java.", ["Java"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/RedBlackTree")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/RedBlackTree")
         ]
     },
     {
         "title": "Health Score",
         "intro": createIntro("This project is a statistical analysis program based on the concept of multi-sensors data fusion - the process of combining observations from a number of different sensors to provide a robust and complete description of an environment or process. Written in C.", ["C"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/HealthScore")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/HealthScore")
         ]
     },
     {
         "title": "Chat Room",
         "intro": createIntro(createLinkText("#FileTransferApplication", "A simple chat room project in Java that allows a client and server to talk to each other. This is a \"smaller, simpler\" version of the", " File Transfer Application") + " project.", ["Java"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/Chatroom")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/Chatroom")
         ]
     },
     {
         "title": "KWIC System",
-        "intro": createIntro(createLinkText("https://en.wikipedia.org/wiki/Key_Word_in_Context", "This group project is a web based solution to the", "Key Word in Context") + " problem, implemented using HTML, CSS, JavaScript, and JSP.", ["HTML", "CSS", "JavaScript", "JSP"]),
+        "intro": createIntro(createLinkText("https://en.wikipedia.org/wiki/Key_Word_in_Context", "This group project is a web based solution to the", "Key Word in Context", true) + " problem, implemented using HTML, CSS, JavaScript, and JSP.", ["HTML", "CSS", "JavaScript", "JSP"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/KWIC_Project")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/KWIC_Project")
         ]
     },
     {
         "title": "Cyberminer",
         "intro": createIntro(createLinkText("#KWICSystem", "A simple search engine built in HTML, CSS, JavaScript, JSP, MySQL, and Selenium that allows users to add a URL-Description tuple to the database, and carries out a search on the descriptions. Built upon the", "KWIC") + " project.", ["HTML", "CSS", "JavaScript", "JSP", "MySQL", "Selenium"]),
         "links": [
-            createLinkText("https://github.com/baonguyen96/Cyberminer")
+            createDemoText(),
+            createPointer() + createLinkText("https://github.com/baonguyen96/Cyberminer")
         ]
     }
 ];
+
+
+function createPointer() {
+    return "&#x27A4; ";
+}
+
+
+function createDemoText() {
+    return createPointer() + "See <span class='linkText'>Demo</span>";
+}
 
 
 function createLinkText(link, welcome, name) {
@@ -105,15 +127,13 @@ function createLinkText(link, welcome, name) {
         welcome = "Check out on";
         name = "GitHub";
     }
+
     return welcome + " <a href=\"" + link + "\" target=\"_blank\">" + name + "</a>";
 }
 
 
 function createIntro(intro, types) {
-    console.log(types);
-
     for(var i = 0; i < types.length; i++) {
-        console.log(types[i]);
         intro = intro.replace(types[i], "<span class=\"projectType\">" + types[i] + "</span>")
     }
     return intro;
@@ -132,7 +152,9 @@ function addProjectsToGroup(groupElement, fromProjectIndex, toProjectIndex) {
         for(var projectIndex = 0; projectIndex < 2; projectIndex++) {
             var projectData = projectsList[rowIndex + projectIndex];
             var currentProject = row.find(".project").clone();
-            currentProject.attr("id", projectData.title.replace(/\s/g, ""));
+            var id = projectData.title.replace(/\s/g, "");
+
+            currentProject.attr("id", id);
             currentProject.find(".projectTitle").text(projectData.title);
             currentProject.find(".projectIntro").html(projectData.intro);
 
@@ -140,14 +162,14 @@ function addProjectsToGroup(groupElement, fromProjectIndex, toProjectIndex) {
             var links = projectData.links;
             for(var linkIndex = 0; linkIndex < links.length; linkIndex++) {
                 var link = projectData.links[linkIndex];
-                console.log(link);
+                var projectLink = currentProject.find(".projectLink").eq(0);
 
                 // update text if only 1 link, or append new links
                 if(linkIndex === 0) {
-                    currentProject.find(".projectLink").html(link);
+                    projectLink.html(link);
                 }
                 else {
-                    var newLink = currentProject.find(".projectLink").clone().html(link);
+                    var newLink = projectLink.clone().html(link);
                     currentProject.find(".projectDescription").append(newLink);
                 }
             }
@@ -156,6 +178,31 @@ function addProjectsToGroup(groupElement, fromProjectIndex, toProjectIndex) {
         groupElement.append(newRow);
     }
 
+}
+
+
+function showDemo() {
+    $(".projectLink .linkText").click(function () {
+        var modal = $("#modalTemplate").find(".modal").clone();
+        var closeModalButton = modal.find(".close");
+        var projectTitle = $(this).closest(".project").find(".projectTitle").text();
+
+        // modal.find(".modalHeader").find("h2").html(projectTitle);
+        modal.css("display", "block");
+
+        console.log(modal.html());
+        console.log(projectTitle);
+
+        // closeModalButton.click(function () {
+        //     modal.hide();
+        // });
+        //
+        // $(window).click(function (event) {
+        //     if (event.target === modal) {
+        //         modal.show();
+        //     }
+        // })
+    });
 }
 
 

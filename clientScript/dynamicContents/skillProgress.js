@@ -33,11 +33,11 @@ var skills = [
     },
     {
         "name": "JavaScript",
-        "value": "80%"
+        "value": "90%"
     },
     {
         "name": "jQuery",
-        "value": "80%"
+        "value": "90%"
     },
     {
         "name": "AJAX",
@@ -76,20 +76,20 @@ var skills = [
         "value": "90%"
     },
     {
-        "name": "Android",
-        "value": "75%"
-    },
-    {
-        "name": "MS Office",
-        "value": "90%"
-    },
-    {
         "name": "Windows",
         "value": "90%"
     },
     {
         "name": "Linux",
         "value": "70%"
+    },
+    {
+        "name": "Android",
+        "value": "75%"
+    },
+    {
+        "name": "MS Office",
+        "value": "90%"
     }
 ];
 

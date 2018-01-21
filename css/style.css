@@ -162,14 +162,14 @@ a:visited {
     }
 }
 
-.toggleText {
+.linkText {
     width: fit-content;
     margin: 10px auto 0;
     text-align: center;
     color: #EE2364;
 }
 
-.toggleText:hover {
+.linkText:hover {
     cursor: pointer;
 }
 
@@ -324,77 +324,4 @@ hr {
     text-align: center;
     padding-bottom: 10px;
     color: grey;
-}
-
-@media only screen and (max-width: 1100px) {
-    .customList {
-        margin-left: 10%;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .project {
-        min-height: 210px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        padding: 10px 3%;
-    }
-
-    #header p {
-        color: white;
-    }
-
-    .section {
-        padding: 15px 30px 25px;
-    }
-
-    .experienceTitle {
-        text-align: center;
-    }
-
-    .period {
-        text-align: center;
-    }
-
-    .language {
-        width: 35%;
-    }
-
-    .progressBackground {
-        width: 50%;
-    }
-
-    .customList {
-        margin: 10px 15px 0;
-    }
-
-    .projects {
-        padding: 0 10px;
-    }
-
-    .projectsHidden {
-        padding: 0;
-    }
-
-    .project {
-        margin: 0;
-        min-height: 100px;
-    }
-
-    #contactForm * {
-        width: 95%;
-    }
-
-    #contacts div {
-        margin-top: 0;
-    }
-
-    #contacts img {
-        height: 35px;
-        width: 35px;
-        margin: 0 2px;
-    }
 }

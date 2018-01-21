@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/media.css">
+        <link rel="stylesheet" type="text/css" href="../css/modal.css">
+
         <script src="https://code.jquery.com/jquery-3.2.1.js"  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
@@ -43,20 +46,20 @@
             <section class="section">
                 <h1><span>About Me</span></h1>
                 <p>
-                    Hello! My name is <strong>Bao</strong>. Currently I am attending <a href="http://www.utdallas.edu/" target="_blank">The University of Texas at Dallas</a>, majoring in Software Engineering. I am honored to enroll in the <a href="https://engineering.utdallas.edu/academics/undergraduate-majors/fast-track/" target="_blank">Fast Track Program</a>. I expect to graduate with my Bachelor degree in the Fall of 2018 and complete my Master degree the next semester. All the classes I have taken so far enable me to think more comprehensively about my major and provide me many useful information about the career that I chose. Beside school time, I read books and learn some other programming languages on my own. I also join <a href="http://cs.utdallas.edu/ai1ec-event/codeburners-kickoff-spring-2017/" target="_blank">CodeBurners</a> - a weekly programming contests at UTD - since 2015, <a href="http://www.vincefutd.org/" target="_blank">UTD Vincef</a> and <a href="http://www.utdallas.edu/urec/clubsports/" target="_blank">UTD Swim Club</a> from 2016 to 2017.
+                    Hello! My name is <strong>Bao</strong>. Currently I am attending <a href="http://www.utdallas.edu/" target="_blank">The University of Texas at Dallas</a>, majoring in Software Engineering. I am honored to enroll in the <a href="https://engineering.utdallas.edu/academics/undergraduate-majors/fast-track/" target="_blank">Fast Track Program</a>. I expect to graduate with my Bachelor degree in the Fall of 2018 and complete my Master degree in the following year. All the classes I have taken so far enable me to think more comprehensively about my major and provide me many useful information about the career that I chose. Beside school time, I read books and learn some other programming languages on my own. I also join <a href="http://cs.utdallas.edu/ai1ec-event/codeburners-kickoff-spring-2017/" target="_blank">CodeBurners</a> - a weekly programming contests at UTD - since 2015, <a href="http://www.vincefutd.org/" target="_blank">UTD Vincef</a> and <a href="http://www.utdallas.edu/urec/clubsports/" target="_blank">UTD Swim Club</a> from 2016 to 2017.
                 </p>
                 <p>
                     I am fascinating with Data Structures, Quality Assurance, Web Development, Cryptography, and Cyber-security.
                 </p>
                 <p>
-                    Besides programming, I like reading books (mostly about  tech-related,) swimming, and doing photography. You can visit my <a href="https://500px.com/baonguyen9" target="_blank">500px</a> page or my <a href="http://baonguyenphoto.weebly.com/" target="_blank">Photography</a> site to check out my photographs.
+                    Along with programming, I also like reading books (mostly about  tech-related,) swimming, and doing photography. You can visit my <a href="https://500px.com/baonguyen9" target="_blank">500px</a> page or my <a href="http://baonguyenphoto.weebly.com/" target="_blank">Photography</a> site to check out my photographs.
                 </p>
             </section>
 
             <!-- work experience -->
             <section class="section" id="experienceSection">
                 <h1><span>Work Experience</span></h1>
-                <p class="toggleText" id="experienceToggle">More</p>
+                <p class="linkText" id="experienceToggle">More</p>
             </section>
 
             <!-- skills -->
@@ -72,7 +75,7 @@
                 </p>
                 <div class="projects"></div>
                 <div class="projectsHidden"></div>
-                <p class="toggleText" id="projectsToggle">More</p>
+                <p class="linkText" id="projectsToggle">More</p>
             </section>
 
             <!-- awards -->
@@ -153,6 +156,13 @@
         ---------------------------------------------------------------------------------->
         <div id="templatesContainer" hidden>
 
+            <!-- modal popup -->
+            <div id="modalPopup" class="modal">
+                <div class="modalContent">
+                    <!-- gif of project demo here -->
+                </div>
+            </div>
+
             <!-- template for each row of the skill section -->
             <div id="skillRowTemplate">
                 <div class="row">
@@ -208,6 +218,31 @@
                 </div>
             </div>
 
+            <!-- template for modal -->
+
+
         </div>
+        <div id="modalTemplate">
+            <div class="modal">
+                <!-- Modal content -->
+                <div class="modalContent">
+                    <div class="modalHeader">
+                        <span class="close">&times;</span>
+                        <h2>Modal Header</h2>
+                    </div>
+                    <div class="modalBody">
+                        <p>Some text in the Modal Body</p>
+                        <p>Some other text...</p>
+                    </div>
+                    <div class="modalFooter">
+                        <h3>Modal Footer</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal does not work if put this script in the header? -->
+        <script src="../clientScript/dynamicContents/modal.js"></script>
+
     </body>
 </html>

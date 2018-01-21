@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".toggleText").click(function () {
+    $(".linkText").click(function () {
         var state = $(this).text();
         var id = $(this).attr("id");
 
@@ -12,7 +12,7 @@ $(document).ready(function () {
             }
             state = "Less";
         }
-        else {
+        else if(state === "Less") {
             if(id === "projectsToggle") {
                 $(".projectsHidden").slideUp();
             }
