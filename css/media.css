@@ -58,6 +58,7 @@
 
     .modal-body .demoImage {
         max-height: 300px;
+        max-width: 100%;
     }
 
     #contactForm * {

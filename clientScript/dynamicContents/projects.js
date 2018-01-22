@@ -199,7 +199,13 @@ function showDemo() {
 
     // Show loader & then get content when modal is shown
     myModal.on('show.bs.modal', function(e) {
+        $(this).css({
+            "height": "90%",
+            "width": "auto"
+        });
         $(this).find(".modal-title").text(demoProjectTitle);
+        // $(this).find(".modal-body").css('overflow-y', 'auto');
+        // $(this).find(".modal-body").css('max-height', $(window).height() * 0.7);
         $(this).find(".demoImage").attr("src", "../assets/images/demos/" + demoProjectId + ".gif");
         $(this).find(".demoImage").attr("alt", demoProjectTitle + " Demo");
     });
