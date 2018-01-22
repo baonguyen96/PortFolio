@@ -56,6 +56,10 @@
         min-height: 100px;
     }
 
+    .modal-body .demoImage {
+        max-height: 300px;
+    }
+
     #contactForm * {
         width: 95%;
     }
