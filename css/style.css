@@ -162,15 +162,26 @@ a:visited {
     }
 }
 
-.linkText {
-    width: fit-content;
-    margin: 10px auto 0;
-    text-align: center;
-    color: #EE2364;
+.toggle {
+    padding: 5px 20px;
+    margin: 15px auto 0;
+    color: #f35d45;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    /*transition: all 0.3s ease;*/
 }
 
-.linkText:hover {
+.toggle:hover {
     cursor: pointer;
+    padding: 4px 20px;
+    border-radius: 7px;
+    border: 1px solid #f35d45;
+}
+
+button:focus {
+    outline: none;
 }
 
 .projects {
@@ -212,6 +223,10 @@ a:visited {
     font-weight: bold;
 }
 
+#projectsToggle {
+    margin-top: 20px;
+}
+
 .experienceHidden {
     display: none;
     width: 100%;
@@ -237,37 +252,40 @@ hr {
     background-color: #efefef;
 }
 
-/*.modal-dialog {*/
-    /*max-height: 75% !important;*/
-/*}*/
-
-/*#hiddenModal {*/
-    /*width: 100% !important;*/
-/*}*/
-
 .modal-title {
     display: inline-block;
     margin: 0 auto;
     font-weight: bold;
+    color: #f35d45;
 }
 
-/*.modal-body {*/
-    /*height: 75%;*/
-/*}*/
+.modal-body {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+}
 
 .modal-body .demoImage {
     display: block;
-    margin: auto;
-    /*width: 100%;*/
-    /*height: 50%;*/
-}
-
-.modal-footer .btn {
     margin: 0 auto;
+    width: 80%;
 }
 
-.modal-footer .btn:hover {
-    background-color: #FEE6DA !important;
+.modal-footer {
+    height: 60px;
+}
+
+.closeModalButton {
+    margin: 0 auto;
+    padding: 3px 8px;
+    background-color: transparent;
+    color: #f35d45;
+    font-weight: bold;
+}
+
+.closeModalButton:hover {
+    border-radius: 10px;
+    border: 2px solid #f35d45;
 }
 
 .shadow {

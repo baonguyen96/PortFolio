@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Bao Nguyen Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Hello my name is Bao. This is my Port Folio. Check it out.">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <link rel="stylesheet" type="text/css" href="../css/media.css">
@@ -37,10 +37,10 @@
         <div class="container-fluid">
 
             <!-- header -->
-            <section id="header" class="section">
+            <header id="header" class="section">
                 <img alt="" class="img-circle" src="../assets/images/misc/avatar.jpg">
                 <p>Bao Nguyen</p>
-            </section>
+            </header>
 
             <!-- about -->
             <section class="section">
@@ -59,7 +59,7 @@
             <!-- work experience -->
             <section class="section" id="experienceSection">
                 <h1><span>Work Experience</span></h1>
-                <p class="linkText" id="experienceToggle">More</p>
+                <button type="button" class="toggle" id="experienceToggle">More</button>
             </section>
 
             <!-- skills -->
@@ -75,7 +75,7 @@
                 </p>
                 <div class="projects"></div>
                 <div class="projectsHidden"></div>
-                <p class="linkText" id="projectsToggle">More</p>
+                <button type="button" class="toggle" id="projectsToggle">More</button>
             </section>
 
             <!-- awards -->
@@ -142,9 +142,9 @@
             </section>
 
             <!-- copyright -->
-            <section class="copyright">
+            <footer class="copyright">
                 &copy; 2018 by Bao Nguyen. All rights reserved.
-            </section>
+            </footer>
         </div>
 
 
@@ -155,13 +155,6 @@
             just use ReactJS
         ---------------------------------------------------------------------------------->
         <div id="templatesContainer" hidden>
-
-            <!-- modal popup -->
-            <div id="modalPopup" class="modal">
-                <div class="modalContent">
-                    <!-- gif of project demo here -->
-                </div>
-            </div>
 
             <!-- template for each row of the skill section -->
             <div id="skillRowTemplate">
@@ -221,7 +214,7 @@
 
         <!-- template for modal -->
         <div class="modal fade" id="hiddenModal" role="dialog">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h3 class="modal-title">Modal Header</h3>
@@ -230,7 +223,7 @@
                         <img class="demoImage shadow" src="" alt="Default Image" align="middle">
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn closeModalButton" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
