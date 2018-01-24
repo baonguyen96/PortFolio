@@ -11,7 +11,15 @@ body {
     font-family: Arial, serif !important;
 }
 
-h1 {
+#header h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    position: relative;
+    top: 10px;
+}
+
+h2 {
     font-size: 15pt;
     color: #f35d45;
     text-align: center;
@@ -20,7 +28,7 @@ h1 {
     font-weight: bold;
 }
 
-h1 span {
+h2 span {
     display: inline-block;
     width: 200px;
     border-radius: 10px;
@@ -252,17 +260,29 @@ hr {
     background-color: #efefef;
 }
 
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.vertical-align-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-content {
+    width:inherit;
+    height:inherit;
+    margin: 0 auto;
+}
+
 .modal-title {
     display: inline-block;
     margin: 0 auto;
     font-weight: bold;
     color: #f35d45;
-}
-
-.modal-body {
-    position: relative;
-    overflow-y: auto;
-    max-height: 400px;
 }
 
 .modal-body .demoImage {
