@@ -1,3 +1,4 @@
+// to be added: ReactJS, XML, RDF, SPARQL
 var skills = [
     {
         "name": "Java",
@@ -47,10 +48,6 @@ var skills = [
         "name": "NodeJS",
         "value": "20%"
     },
-    // {
-    //     "name": "ReactJS",
-    //     "value": "20%"
-    // },
     {
         "name": "MySQL",
         "value": "50%"

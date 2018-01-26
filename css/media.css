@@ -5,7 +5,7 @@
 }
 
 @media only screen and (min-width: 600px) {
-    .project {
+    .project, .projectsHidden {
         min-height: 230px;
     }
 }
@@ -15,7 +15,7 @@
         padding: 10px 3%;
     }
 
-    #header p {
+    #name {
         color: white;
     }
 
@@ -43,12 +43,8 @@
         margin: 10px 15px 0;
     }
 
-    .projects {
+    .projects, .projectsHidden {
         padding: 0 10px;
-    }
-
-    .projectsHidden {
-        padding: 0;
     }
 
     .project {

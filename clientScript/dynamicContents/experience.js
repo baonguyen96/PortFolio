@@ -44,7 +44,7 @@ $(function () {
 
         // only show the first experience by default
         if(i > 0) {
-            currentExperience.removeClass("experience");
+            // currentExperience.removeClass("experience");
             currentExperience.addClass("experienceHidden");
             currentExperience.prepend("<hr/>");
         }
