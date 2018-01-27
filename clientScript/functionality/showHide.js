@@ -25,7 +25,7 @@ $(document).ready(function () {
         $(this).html(state);
     });
 
-    $(".project").hover(
+    $(".projectContent").hover(
         function () {
             $(this).find(".projectTitle").hide();
             $(this).find(".projectDescription").show();
