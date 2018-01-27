@@ -1,4 +1,4 @@
-// NOTE: demos are recorded at resolutions: 1024×576 (aspect ratio:  16:9)
+// NOTE: demos are recorded at resolutions: 1024×576 (aspect ratio:  16:9) on 27in 1920x1080 screen
 
 var projectsList = [
     {
@@ -45,7 +45,9 @@ var projectsList = [
     {
         "title": "E-Commerce",
         "intro": createIntro("This project is a small E-Commerce database using Java embedded with MySQL (JDBC and JPA.)", ["MySQL", "JDBC", "JPA"]),
-        "links": []
+        "links": [
+            createLinkTextWithPointer("https://github.com/baonguyen96/ECommerce")
+        ]
     },
     {
         "title": "Flights Map",

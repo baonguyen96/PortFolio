@@ -3,8 +3,6 @@ $(document).ready(function () {
         var state = $(this).text();
         var id = $(this).attr("id");
 
-        // alert(state + " " + id);
-
         if(state === "More") {
             if(id === "projectsToggle") {
                 $(".projectsHidden").slideDown();
