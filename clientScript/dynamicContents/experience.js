@@ -7,7 +7,7 @@ var workExperienceList = [
             "Use Selenium IDE and WebDriver for automated testing",
             "Maintain and update Selenese scripts",
             "Migrate Selenese scripts to Java OOP to support automation testing on multiple browsers",
-            "Implement additional features such as self-healing and report logging to Excel via Apache POI"
+            "Implement additional features such as self-healing and report logging"
         ]
     },
     {

@@ -73,7 +73,7 @@ var skills = [
     },
     {
         "name": "Selenium",
-        "value": "90%"
+        "value": "100%"
     },
     {
         "name": "Windows",

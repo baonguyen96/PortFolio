@@ -36,7 +36,7 @@ var projectsList = [
     },
     {
         "title": "Tickets Reservation System",
-        "intro": createIntro("This C++ project  simulates the current online ticketing systems - that either reserves the seats with receipts then flies the plane when full, or puts the selected seats onto the wait-list if those seats are not available. The prices are based on the type of seat(s) and the age of user.", ["C++"]),
+        "intro": createIntro("This C++ project  simulates the current online ticketing systems. It can reserve seats with receipts then flies the plane when full, or puts the selected seats onto the wait-list if they are not available. The prices depends on the type of seat and the user's age.", ["C++"]),
         "links": [
             createDemoText(),
             createLinkTextWithPointer("https://github.com/baonguyen96/AirplaneTicketsReservingSystem")

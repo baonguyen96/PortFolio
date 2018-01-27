@@ -78,22 +78,23 @@ p {
 }
 
 #skillsSection .row div{
-    margin-bottom: 7px;
+    margin-bottom: 10px;
 }
 
 .language {
     display: inline-block;
-    width: 30%;
+    width: 25%;
     position: relative;
     top: 3px;
     text-align: right;
+    /*font-size: 1.1em;*/
 }
 
 .progressBackground {
     display: inline-block;
     margin-left: 10px;
-    width: 55%;
-    height: 25px;
+    width: 65%;
+    height: 27px;
     background: #FEE6DA;
     border-radius: 3px;
     position: relative;
@@ -112,9 +113,11 @@ p {
     display: inline-block;
     width: 100%;
     text-align: center;
-    height: inherit;
+    /*position: relative;*/
+    /*top: 3px;*/
     color: #FEE6DA;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 a {
@@ -178,7 +181,6 @@ a:visited {
     background-color: transparent;
     display: flex;
     justify-content: center;
-    /*transition: all 0.3s ease;*/
 }
 
 .toggle:hover {
@@ -202,11 +204,11 @@ button:focus {
 }
 
 .project {
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #FEE6DA;
     background-clip: padding-box;
-    border: 10px solid transparent;
-    border-radius: 20px;
+    border: 15px solid transparent;
+    border-radius: 25px;
 }
 
 .projectTitle {
@@ -378,7 +380,7 @@ hr {
     margin-bottom: 10px;
 }
 
-#contacts img {
+#contacts .contactIcon {
     height: 50px;
     width: 50px;
     margin: 0 7px;
@@ -388,8 +390,23 @@ hr {
     text-decoration: none;
 }
 
-#contacts img:hover {
-    opacity: 0.8;
+.contactIcon {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: transform;
+    transition: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.contactIcon:hover {
+    opacity: 0.9;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: transform;
+    transition: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
 
 #contacts {
