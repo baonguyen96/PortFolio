@@ -11,6 +11,15 @@ var workExperienceList = [
         ]
     },
     {
+        "jobTitle": "Quality Assurance",
+        "company": "ARGO Data Resource Corporation",
+        "period": "January 2018 - Present",
+        "duties": [
+            "Senior Design project",
+            "Use Java as Middleware to read and export RDF data to provide custom test cases"
+        ]
+    },
+    {
         "jobTitle": "Store Associate",
         "company": "7-Eleven",
         "period": "July 2014 - December 2016",

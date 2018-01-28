@@ -4,7 +4,8 @@ var awards = [
     createLinkText("http://www.utdallas.edu/news/2016/3/4-31922_More-than-1200-Students-Earn-Spots-on-Deans-List-f_story-wide.html?WT.mc_id=NewsEmail", "", "Fall 2015 Dean's List") + " with the Excellence in Education Scholarship for this semester",
     "2017 Wells Fargo Endowed Scholarship",
     "2018 Selden Leavell Endowed Scholarship",
-    "2018 Mason Brown Family Foundation Endowed Scholarship"
+    "2018 Mason Brown Family Foundation Endowed Scholarship",
+    createLinkText("http://rs.ieee.org/", "Software Testing Contest Certification from ", "IEEE Reliability Society")
 ];
 
 

@@ -205,17 +205,17 @@ button:focus {
 }
 
 .project {
-    background-color: #FEE6DA;
-    background-clip: padding-box;
-    /*padding: 10px;*/
-    border: 15px solid transparent;
-    border-radius: 30px;
+    padding: 5px;
+    margin: 0;
+    border: 10px solid transparent;
 }
 
 .projectContent {
+    background-color: #FEE6DA;
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
 }
 
 .projectTitle {
@@ -383,17 +383,18 @@ hr {
     display: none;
 }
 
-#contacts div {
+#followMeSection div {
     margin-bottom: 10px;
+    width: 100%;
 }
 
-#contacts .contactIcon {
+#followMeSection .contactIcon {
     height: 50px;
     width: 50px;
     margin: 0 7px;
 }
 
-#contacts a {
+#followMeSection a {
     text-decoration: none;
 }
 
@@ -416,7 +417,7 @@ hr {
     transition-duration: 0.3s;
 }
 
-#contacts {
+#followMeSection {
     text-align: center;
 }
 

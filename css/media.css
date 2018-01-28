@@ -1,29 +1,66 @@
-/* ipad */
-@media only screen and (min-width: 768px) {
-    .project {
-        min-height: 280px;
+/* ipad landscape */
+@media only screen and (max-width: 1100px) {
+    .projectContent {
+        min-height: 260px;
     }
 }
 
-@media only screen and (min-width: 600px) {
-    .customList {
-        margin-left: 15%;
+/* ipad portrait */
+@media only screen and (max-width: 1000px) {
+    .projectContent {
+        min-height: 185px;
     }
 }
+
+@media only screen and (max-width: 950px) {
+    #skillsSection .language {
+        width: 20%;
+    }
+
+    #skillsSection .progressBackground {
+        width: 70%
+    }
+}
+
 
 /* desktop */
 @media only screen and (min-width: 1100px) {
     .customList {
-        margin-left: 27%;
+        margin-left: 25%;
     }
 
-    .project {
-        min-height: 235px;
+    .projectContent {
+        min-height: 210px;
     }
 }
 
-/* phone */
+
+/* phone (landscape) */
+@media only screen and (max-width: 670px) {
+    .projectContent {
+        min-height: 110px;
+    }
+
+    .customList {
+        margin: 10px 15% 0 15%;
+    }
+}
+
+
 @media only screen and (max-width: 600px) {
+    .experienceTitle {
+        text-align: center;
+    }
+
+    .period {
+        text-align: center;
+    }
+
+}
+
+
+/* phone (portrait) */
+@media only screen and (max-width: 400px) {
     body {
         padding: 10px 3%;
     }
@@ -36,35 +73,28 @@
         padding: 15px 30px 25px;
     }
 
-    .experienceTitle {
-        text-align: center;
-    }
-
-    .period {
-        text-align: center;
+    #skillsSection {
+        padding-left: 5px;
+        padding-right: 5%;
     }
 
     .language {
-        width: 35%;
+        width: 30% !important;
     }
 
     .progressBackground {
-        width: 50%;
+        width: 60% !important;
     }
 
     .customList {
         margin: 10px 15px 0;
     }
 
-    .projects {
-        padding: 0 10px;
-    }
-
-    .projectsHidden {
+    .projects, .projectsHidden {
         padding: 0;
     }
 
-    .project {
+    .projectContent {
         margin: 0;
         min-height: 100px;
     }
@@ -78,13 +108,22 @@
         width: 95%;
     }
 
-    #contacts div {
-        margin-top: 0;
+    #followMeSection {
+        padding-left: 0;
+        padding-right: 0;
     }
 
-    #contacts img {
-        height: 35px;
-        width: 35px;
-        margin: 0 2px;
+    #followMeSection div {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .contactIcon {
+        width: 40px !important;
+        height: 40px !important;
+        margin: 0 3px !important;
+        padding: 0 !important;
     }
 }
+
+
