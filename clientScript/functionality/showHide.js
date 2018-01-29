@@ -25,14 +25,15 @@ $(document).ready(function () {
         $(this).html(state);
     });
 
+
     $(".projectContent").hover(
         function () {
             $(this).find(".projectTitle").hide();
             $(this).find(".projectDescription").show();
         },
         function () {
-            $(this).find(".projectTitle").show();
             $(this).find(".projectDescription").hide();
+            $(this).find(".projectTitle").show();
         }
     );
 });
