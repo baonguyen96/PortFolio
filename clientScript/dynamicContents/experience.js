@@ -1,22 +1,15 @@
 var workExperienceList = [
     {
-        "jobTitle": "Quality Assurance Intern",
+        "jobTitle": "Quality Assurance",
         "company": "Loopback Analytics",
         "period": "May 2017 - Present",
         "duties": [
-            "Use Selenium IDE and WebDriver for automated testing",
-            "Maintain and update Selenese scripts",
-            "Migrate Selenese scripts to Java OOP to support automation testing on multiple browsers",
-            "Implement additional features such as self-healing and report logging"
-        ]
-    },
-    {
-        "jobTitle": "Quality Assurance",
-        "company": "ARGO Data Resource Corporation",
-        "period": "January 2018 - Present",
-        "duties": [
-            "Senior Design project",
-            "Use Java as Middleware to read and export RDF data to provide custom test cases"
+            "Use Selenium WebDriver for automated testing",
+            "Implement additional features such as self-healing and report logging for the tool",
+            "Architect and build a system that integrates different tools to support end-to-end automation testing",
+            "Perform regression tests on database migration",
+            "Help development team writing production codes",
+            "Experience with Java, C#, SQL, Selenium"
         ]
     },
     {
@@ -53,7 +46,6 @@ $(function () {
 
         // only show the first experience by default
         if(i > 0) {
-            // currentExperience.removeClass("experience");
             currentExperience.addClass("experienceHidden");
             currentExperience.prepend("<hr/>");
         }

@@ -216,24 +216,31 @@ button:focus {
     height: 100%;
     padding: 10px 20px;
     border-radius: 15px;
+    position: relative;
 }
 
 .projectTitle {
     font-weight: bold;
     font-size: 1.25em;
-    margin: auto;
-    text-align: center;
     position: relative;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
 }
 
 .projectDescription {
     display: none;
     position: relative;
     top: 50%;
+    height: fit-content;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    z-index: 1;
 }
 
 .projectType {

@@ -1,8 +1,8 @@
 // to be added: ReactJS, XML, RDF, SPARQL
-var skills = [
+skills = [
     {
         "name": "Java",
-        "value": "90%"
+        "value": "100%"
     },
     {
         "name": "C",
@@ -18,7 +18,7 @@ var skills = [
     },
     {
         "name": "Python",
-        "value": "60%"
+        "value": "65%"
     },
     {
         "name": "PHP",
@@ -26,11 +26,11 @@ var skills = [
     },
     {
         "name": "HTML",
-        "value": "80%"
+        "value": "90%"
     },
     {
         "name": "CSS",
-        "value": "80%"
+        "value": "90%"
     },
     {
         "name": "JavaScript",
@@ -49,23 +49,35 @@ var skills = [
         "value": "20%"
     },
     {
-        "name": "MySQL",
-        "value": "50%"
-    },
-    {
-        "name": "JDBC",
-        "value": "80%"
-    },
-    {
-        "name": "JUnit",
-        "value": "90%"
-    },
-    {
-        "name": "TestNG",
+        "name": "MongoDB",
         "value": "70%"
     },
     {
-        "name": "GitHub",
+        "name": "RDF",
+        "value": "90%"
+    },
+    {
+        "name": "MySQL",
+        "value": "80%"
+    },
+    {
+        "name": "JDBC",
+        "value": "90%"
+    },
+    {
+        "name": "JPA",
+        "value": "60%"
+    },
+    {
+        "name": "JUnit",
+        "value": "100%"
+    },
+    {
+        "name": "TestNG",
+        "value": "100%"
+    },
+    {
+        "name": "Git",
         "value": "100%"
     },
     {
@@ -101,6 +113,7 @@ $(document).ready(function () {
 
         // add 2 projects per row
         for(var skillIndex = 0; skillIndex < 2; skillIndex++) {
+
             var skillData = skills[rowIndex + skillIndex];
             var currentSkill = row.find(".skill").clone();
             currentSkill.find(".language").text(skillData.name);

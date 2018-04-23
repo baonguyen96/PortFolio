@@ -8,6 +8,7 @@ $(function () {
     $.ajax({
         type: "POST",
         url: "../serverScript/php/emailAddressSetter.php",
+        // url: "./test.php",
         data: emailData,
         dataType: "json",
         success: function (data) {
@@ -17,11 +18,12 @@ $(function () {
                 emailIcon.hide();
             }
             else {
-                response = response.replace('"', '');
+                response = response.replace('"', '').replace('"', '');
                 emailIcon.attr("href", "mailto:" + response);
             }
         },
         error: function (data) {
+            // alert(JSON.stringify(data));
             emailIcon.hide();
         }
     });

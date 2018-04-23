@@ -39,7 +39,7 @@ function processServerResponse(data) {
         setupAlert("alert-success", "Congratulation!", "Your message has been sent.");
     }
     else {
-        setupAlert("alert-danger", "Sorry!", "We are unable to process your message." + json);
+        setupAlert("alert-danger", "Sorry!", "We are unable to process your message.<br/>Please click the mail icon below to send message instead.");
     }
 }
 
@@ -47,8 +47,8 @@ function processServerResponse(data) {
 function setupAlert(alertClass, boldMessage, normalMessage) {
     var alertBox = $("#contactSubmitAlert");
     alertBox.addClass(alertClass);
-    alertBox.find("strong").text(boldMessage);
-    alertBox.find("span").text(normalMessage);
+    alertBox.find("strong").html(boldMessage);
+    alertBox.find("span").html(normalMessage);
     // alertBox.show();
     alertBox.fadeIn(500).delay(3000).fadeOut(500, function () {
         alertBox.removeClass(alertClass);
