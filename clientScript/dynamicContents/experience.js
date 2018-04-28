@@ -57,7 +57,7 @@ $(function () {
         var customList = $("#customListTemplate").clone().find(".customList");
         var item = customList.find(".customListItem");
         var currentDuties = experienceData.duties;
-        item.find(".customListIcon").attr("src", "../assets/images/misc/work.png");
+        item.find(".customListIcon").attr("src", "./assets/images/misc/work.png");
 
         // add all duties of current work experience
         for(var duty = 0; duty < currentDuties.length; duty++) {

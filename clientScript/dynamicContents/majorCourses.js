@@ -16,7 +16,7 @@ $(function () {
     var coursesSection = $("#coursesSection");
     var customList = $("#customListTemplate").clone().find(".customList");
     var item = customList.find(".customListItem");
-    item.find(".customListIcon").attr("src", "../assets/images/misc/course.png");
+    item.find(".customListIcon").attr("src", "./assets/images/misc/course.png");
 
     for(var i = 0; i < courses.length; i++) {
         var newItem = item.clone();

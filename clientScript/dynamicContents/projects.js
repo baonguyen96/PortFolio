@@ -26,11 +26,12 @@ projectsList = [
     },
     {
         "title": "ARGO Self Service Agent for Test Data",
-        "intro": createIntro("<i>(Senior Design Project)</i> A Web Application from Java SpringBoot and JSP " +
-            "that allows QA Testers to query and mutate data to produce new test data. Working with Semantic Web and RDF.",
-            ["Java SpringBoot", "JSP", "Semantic Web", "RDF"]),
+        "intro":
+            "<p id='seniorDesignTitle'><i>(Senior Design Project for " + createLinkText("http://argodata.com/", "", "ARGO Data") + ")</i></p><br/>" +
+            createIntro("An application that automatically generated desired test data. It use SPARQL and Java to retrieve and store RDF graphs from/to Fuseki server. Can be used as CLI application or Web application (SpringBoot).",
+            ["SPARQL", "Java", "Fuseki", "SpringBoot"]),
         "links": [
-            // cannot include github page
+            createDemoText()
         ]
     },
     {
@@ -164,6 +165,15 @@ projectsList = [
         "links": [
             createLinkTextWithPointer("https://github.com/baonguyen96/KWIC_Project")
         ]
+    },
+    {
+        "title": "JOANA PDG Pruner",
+        "intro": createIntro(createLinkText("https://github.com/joana-team/joana", "An extension to the current state-of-the-art Java analysis tool - ", "JOANA") + " - that produces a maintainable and relevant " + createLinkText("https://en.wikipedia.org/wiki/Program_Dependence_Graph", "", "PDG.") ,
+            ["Java"]),
+        "links": [
+            createDemoText(),
+            createLinkTextWithPointer("https://github.com/baonguyen96/JoanaPdgPruner")
+        ]
     }
 ];
 
@@ -284,7 +294,6 @@ function showDemo() {
 
 
 $(function () {
-
     var projectSection = $("#projectsSection");
     var projects = projectSection.find(".projects");
     var projectsHidden = projectSection.find(".projectsHidden");

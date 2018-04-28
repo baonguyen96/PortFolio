@@ -17,7 +17,7 @@ $(function () {
 
         $.ajax({
             type: "POST",
-            url: "../serverScript/php/mailer.php",
+            url: "serverScript/php/mailer.php",
             data: formData,
             dataType: "json",
             success: function (data) {
@@ -49,7 +49,6 @@ function setupAlert(alertClass, boldMessage, normalMessage) {
     alertBox.addClass(alertClass);
     alertBox.find("strong").html(boldMessage);
     alertBox.find("span").html(normalMessage);
-    // alertBox.show();
     alertBox.fadeIn(500).delay(3000).fadeOut(500, function () {
         alertBox.removeClass(alertClass);
     });

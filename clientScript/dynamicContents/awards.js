@@ -13,7 +13,7 @@ $(function () {
     var awardsSection = $("#awardsSection");
     var customList = $("#customListTemplate").clone().find(".customList");
     var item = customList.find(".customListItem");
-    item.find(".customListIcon").attr("src", "../assets/images/misc/award.png");
+    item.find(".customListIcon").attr("src", "./assets/images/misc/award.png");
 
     for(var i = 0; i < awards.length; i++) {
         var newItem = item.clone();
