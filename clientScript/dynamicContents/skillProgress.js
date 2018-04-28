@@ -61,6 +61,10 @@ skills = [
         "value": "80%"
     },
     {
+        "name": "SPARQL",
+        "value": "80%"
+    },
+    {
         "name": "JDBC",
         "value": "90%"
     },

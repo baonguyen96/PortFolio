@@ -25,7 +25,7 @@ projectsList = [
         ]
     },
     {
-        "title": "ARGO Self Service Agent for Test Data",
+        "title": "Self Service Agent For Test Data",
         "intro":
             "<p id='seniorDesignTitle'><i>(Senior Design Project for " + createLinkText("http://argodata.com/", "", "ARGO Data") + ")</i></p><br/>" +
             createIntro("An application that automatically generated desired test data. It use SPARQL and Java to retrieve and store RDF graphs from/to Fuseki server. Can be used as CLI application or Web application (SpringBoot).",
@@ -167,7 +167,7 @@ projectsList = [
         ]
     },
     {
-        "title": "JOANA PDG Pruner",
+        "title": "Joana Pdg Pruner",
         "intro": createIntro(createLinkText("https://github.com/joana-team/joana", "An extension to the current state-of-the-art Java analysis tool - ", "JOANA") + " - that produces a maintainable and relevant " + createLinkText("https://en.wikipedia.org/wiki/Program_Dependence_Graph", "", "PDG.") ,
             ["Java"]),
         "links": [
@@ -286,7 +286,7 @@ function showDemo() {
         $(this).find(".modal-title").text(demoProjectTitle);
 
         var img = $(this).find(".demoImage");
-        img.attr("src", "../assets/images/demos/" + demoProjectId + ".gif");
+        img.attr("src", "./assets/images/demos/" + demoProjectId + ".gif");
         img.attr("alt", demoProjectTitle + " Demo");
     });
 
