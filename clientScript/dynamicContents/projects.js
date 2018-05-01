@@ -26,7 +26,7 @@ projectsList = [
     {
         "title": "Self Service Agent For Test Data",
         "intro":
-            "<p id='seniorDesignTitle'><i>(Senior Design Project for " + createLinkText("http://argodata.com/", "", "ARGO Data") + ")</i></p><br/>" +
+            "<p id='seniorDesignTitle'><i>(Senior Design Project for " + createLinkText("http://argodata.com/", "", "ARGO Data") + ")</i></p>" +
             createIntro("An application that automatically generated desired test data. It use SPARQL and Java to retrieve and store RDF graphs from/to Fuseki server. Can be used as CLI application or Web application (SpringBoot).",
             ["SPARQL", "Java", "Fuseki", "SpringBoot"]),
         "links": [

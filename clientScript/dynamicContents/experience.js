@@ -8,8 +8,7 @@ var workExperienceList = [
             "Implement additional features such as self-healing and report logging for the tool",
             "Architect and build a system that integrates different tools to support end-to-end automation testing",
             "Perform regression tests on database migration",
-            "Help development team writing production codes",
-            "Experience with Java, C#, SQL, Selenium"
+            "Experience with Java, SQL, Selenium"
         ]
     },
     {
@@ -26,10 +25,9 @@ var workExperienceList = [
         "company": "Melbourne Public Library",
         "period": "November 2012 - March 2013",
         "duties": [
-            "Volunteer",
-            "Keep track of books flow",
-            "Organize books",
-            "Organize and run public events"
+            "Volunteerism",
+            "Organize and track books flow",
+            "Organize and run public events for children"
         ]
     }
 ];

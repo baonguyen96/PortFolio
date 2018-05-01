@@ -1,4 +1,5 @@
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 768px) {
+
     body {
         padding-left: 10%;
         padding-right: 10%;
@@ -6,25 +7,32 @@
 
     .section {
         margin-bottom: 3em;
-        padding: 3em;
+        padding: 3em 10%;
     }
 
-}
-
-
-@media screen and (min-width: 768px) {
+    .customList {
+        padding-left: 15%;
+        padding-right: 10%;
+    }
 
     .skillContent {
         padding-right: 30px;
     }
 
-    .customList {
-        padding-left: 20%;
-        padding-right: 15%;
-    }
-
     .projectContent {
         min-height: 13em;
+    }
+
+    #followMeSection > div div {
+        padding: 0;
+    }
+
+    #followMeSection > div div:first-child a {
+        float: right;
+    }
+
+    #followMeSection > div div:last-child a {
+        float: left;
     }
 
     #followMeSection .contactIcon {
@@ -45,10 +53,16 @@
 }
 
 
-/*@media screen and (min-width: 1025px) {*/
+@media screen and (min-width: 1024px) {
 
-    /*#name {*/
-        /*color: black;*/
-    /*}*/
+    #name {
+        color: black;
+    }
 
-/*}*/
+    .customList {
+        padding-left: 20%;
+        padding-right: 15%;
+    }
+
+
+}

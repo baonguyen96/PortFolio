@@ -17,7 +17,7 @@ $(function () {
 
         $.ajax({
             type: "POST",
-            url: "serverScript/php/mailer.php",
+            url: "./serverScript/mailer.php",
             data: formData,
             dataType: "json",
             success: function (data) {
@@ -25,6 +25,7 @@ $(function () {
                 clearFormData();
             },
             error: function (data) {
+                // alert("Error");
                 processServerResponse(data);
             }
         });
@@ -34,6 +35,8 @@ $(function () {
 
 function processServerResponse(data) {
     var json = JSON.stringify(data);
+
+    console.log(json);
 
     if(json === '"Success"') {
         setupAlert("alert-success", "Congratulation!", "Your message has been sent.");

@@ -42,11 +42,16 @@ p {
 }
 
 .section {
-    background-color: #fff;
-    padding: 1em;
     border-radius: 10px;
     margin: 0 auto 1.25em;
+    padding: 1em;
 }
+
+.section:not(#header) {
+    background-color: #fff;
+    padding: 3em 1em 2em 1em;
+}
+
 
 #header {
     background-image: url("../assets/images/misc/header-background-crop.jpg");
@@ -373,16 +378,14 @@ hr {
     padding-right: 0;
 }
 
-#followMeSection div {
-    width: 80%;
-    padding: 0 0.2em;
+#followMeSection > div div {
     margin: 0 auto;
 }
 
 #followMeSection .contactIcon {
-    height: 2.3em;
-    width: 2.3em;
-    margin: 0.2em;
+    height: 2.5em;
+    width: 2.5em;
+    margin: 0.3em;
 }
 
 #followMeSection a {
@@ -413,14 +416,7 @@ hr {
 }
 
 .copyright {
-    font-size: 0.75em;
+    font-size: 0.8em;
     text-align: center;
-    padding-bottom: 0.75em;
     color: grey;
-}
-
-
-#seniorDesignTitle {
-    display: inline-block;
-    margin: 0 auto;
 }
