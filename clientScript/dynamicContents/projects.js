@@ -15,10 +15,9 @@ projectsList = [
     },
     {
         "title": "File Transfer Application",
-        "intro": createIntro("This Java project implements a unique protocol for File Transfer " +
-            "between one Server and one Client utilizing Socket Programming, Connection Management, " +
-            "Reliable Communication, and Security (Public Key Crypto as well as Symmetric Key Crypto). " +
-            "Built on top of " + createLinkText("#ChatRoom", "", "Chat Room") + " project", ["Java"]),
+        "intro": createIntro("This Java project implements a unique File Transfer Protocol " +
+            "utilizing Socket, Connection Management, Reliable Communication, " +
+            "and Security (Public Key Crypto and Symmetric Key Crypto).", ["Java"]),
         "links": [
             createDemoText(),
             createLinkTextWithPointer("https://github.com/baonguyen96/FileTransferApplication")
@@ -36,9 +35,9 @@ projectsList = [
     },
     {
         "title": "MIPS Converter",
-        "intro": createIntro("This Java, Java Swing project provides conversion from and to Java, MIPS, and Machine codes. " +
-            "It recognizes different instruction types (I-, R-, or J-) from MIPS or Binary codes and provides the other two " +
-            "equivalences on a GUI.", ["Java", "Java Swing"]),
+        "intro": createIntro("This Java Swing project provides conversion between Java, MIPS, and Machine codes. " +
+            "It recognizes different instruction types (I-, R-, or J-) from MIPS or Binary codes " +
+            "and provides the other two equivalences on a GUI.", ["Java Swing"]),
         "links": [
             createDemoText(),
             createLinkTextWithPointer("https://github.com/baonguyen96/MipsConverter")
@@ -56,9 +55,9 @@ projectsList = [
     },
     {
         "title": "Tickets Reservation System",
-        "intro": createIntro("This C++ project  simulates the current online ticketing systems. " +
-            "It can reserve seats with receipts then flies the plane when full, or puts the selected seats " +
-            "onto the wait-list if they are not available. The prices depends on the type of seat and the user's age.", ["C++"]),
+        "intro": createIntro("This C++ project simulates an online ticketing systems. " +
+            "It lets user reserves seats, flies the plane when full, or puts the selected seats " +
+            "onto the wait-list. The prices depends on different configurations of user's data.", ["C++"]),
         "links": [
             createDemoText(),
             createLinkTextWithPointer("https://github.com/baonguyen96/AirplaneTicketsReservingSystem")
@@ -74,9 +73,9 @@ projectsList = [
     },
     {
         "title": "Flights Map",
-        "intro": createIntro("This C# project represents a map of flights that connect different cities. " +
-            "Each city is a vertex, and each flight is an edge in the graph. It utilizes Dijkstra's algorithm " +
-            "to find the 3 shortest paths (either by flight duration or by total distance) between given 2 cities.", ["C#"]),
+        "intro": createIntro("This C# project represents a map of flights among cities. " +
+            "It utilizes Dijkstra's algorithm to find the 3 shortest paths " +
+            "(either by flight duration or by distance) between given 2 cities.", ["C#"]),
         "links": [
             createDemoText(),
             createLinkTextWithPointer("https://github.com/baonguyen96/FlightGraph")
@@ -84,8 +83,8 @@ projectsList = [
     },
     {
         "title": "Calendar",
-        "intro": createIntro("Simple Java, JavaFX program to calculate the difference between 2 dates, " +
-            "or the second date given the first one and the duration.", ["Java", "JavaFX"]),
+        "intro": createIntro("Simple JavaFX program to calculate the difference between 2 dates, " +
+            "or the second date given the first one and the duration.", ["JavaFX"]),
         "links": [
             createDemoText(),
             createLinkTextWithPointer("https://github.com/baonguyen96/Calendar")
@@ -110,9 +109,9 @@ projectsList = [
     },
     {
         "title": "Health Score",
-        "intro": createIntro("This project is a statistical analysis program based on the concept " +
-            "of multi-sensors data fusion - the process of combining observations from a number of different " +
-            "sensors to provide a robust and complete description of an environment or process. Written in C.", ["C"]),
+        "intro": createIntro("This C project is a statistical analysis program based on the concept " +
+            "of multi-sensors data fusion - combining observations from a number of different " +
+            "sensors to provide a robust, complete description of an environment or process.", ["C"]),
         "links": [
             createDemoText(),
             createLinkTextWithPointer("https://github.com/baonguyen96/HealthScore")
@@ -121,7 +120,7 @@ projectsList = [
     {
         "title": "Chat Room",
         "intro": createIntro(createLinkText("#FileTransferApplication", "A simple chat room project in Java " +
-            "that allows a client and server to talk to each other. This is a \"smaller, simpler\" version of the",
+            "that allows a Client and a Server to communicate with each other. This is a \"smaller, simpler\" version of the",
             " File Transfer Application") + " project.", ["Java"]),
         "links": [
             createDemoText(),
@@ -130,10 +129,9 @@ projectsList = [
     },
     {
         "title": "Cyberminer",
-        "intro": createIntro(createLinkText("#KWICSystem", "A simple search engine built in HTML, CSS, JavaScript, " +
-            "JSP, MySQL, and Selenium that allows users to add a URL-Description tuple to the database, and carries " +
+        "intro": createIntro(createLinkText("#KWICSystem", "A simple search engine built in HTML, CSS, SpringBoot, MySQL, and Selenium that allows users to add a URL-Description tuple to the database, and carries " +
             "out a search on the descriptions. Built upon the", "KWIC") + " project.",
-            ["HTML", "CSS", "JavaScript", "JSP", "MySQL", "Selenium"]),
+            ["HTML", "CSS", "SpringBoot", "MySQL", "Selenium"]),
         "links": [
             createLinkTextWithPointer("https://github.com/baonguyen96/Cyberminer")
         ]
@@ -151,7 +149,7 @@ projectsList = [
     },
     {
         "title": "Viet Cuisine",
-        "intro": createIntro("A Website that showcases Vietnamese cuisine. Implemented using HTML, CSS, Bootstrap, " +
+        "intro": createIntro("A website that showcases Vietnamese cuisine. Implemented using HTML, CSS, Bootstrap, " +
             "and JavaScript.", ["HTML", "CSS", "Bootstrap", "JavaScript"]),
         "links": [
             createLinkTextWithPointer("https://github.com/baonguyen96/VietCuisine")
@@ -161,7 +159,7 @@ projectsList = [
         "title": "KWIC System",
         "intro": createIntro(createLinkText("https://en.wikipedia.org/wiki/Key_Word_in_Context",
             "This group project is a web based solution to the", "Key Word in Context") + " problem, " +
-            "implemented using HTML, CSS, JavaScript, and JSP.", ["HTML", "CSS", "JavaScript", "JSP"]),
+            "implemented using HTML, CSS, JavaScript, and SpringBoot.", ["HTML", "CSS", "JavaScript", "SpringBoot"]),
         "links": [
             createLinkTextWithPointer("https://github.com/baonguyen96/KWIC_Project")
         ]
@@ -173,6 +171,16 @@ projectsList = [
         "links": [
             createDemoText(),
             createLinkTextWithPointer("https://github.com/baonguyen96/JoanaPdgPruner")
+        ]
+    },
+    {
+        "title": "Tech Rush",
+        "intro": createIntro("A website that summarizes basic yet essential knowledge about Web Development for Business." +
+            " Written in HTML, CSS, Bootstrap, JavaScript, WordPress.",
+            ["HTML", "CSS", "Bootstrap", "JavaScript", "WordPress"]),
+        "links": [
+            createLinkText("http://techrush.site/", "See the ", "official site"),
+            createLinkTextWithPointer("https://github.com/baonguyen96/TechRush")
         ]
     }
 ];
@@ -265,9 +273,6 @@ function addProjectsToGroup(groupElement, fromProjectIndex, toProjectIndex) {
 
 function showDemo() {
     var myModal = $("#hiddenModal");
-
-    console.log(myModal.html());
-
     var demoProjectId = "";
     var demoProjectTitle = "";
 
@@ -275,14 +280,10 @@ function showDemo() {
         demoProjectTitle = $(this).closest(".project").find(".projectTitle").text();
         demoProjectId = $(this).closest(".project").attr("id");
 
-        console.log(demoProjectTitle);
-        console.log(demoProjectId);
     });
 
     // Show loader & then get content when modal is shown
     myModal.on('show.bs.modal', function() {
-        console.log($(this).html);
-
         $(this).find(".modal-title").text(demoProjectTitle);
 
         var img = $(this).find(".demoImage");

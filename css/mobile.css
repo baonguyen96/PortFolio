@@ -4,55 +4,48 @@ html {
 }
 
 body {
-    font-size: 13pt;
+    font-size: 15pt;
     background-color: #efefef;
-    padding: 20px 7% 10px;
+    padding: 5% 1%;
     margin: 0;
     font-family: Arial, serif !important;
 }
 
 #name {
-    font-size: 24pt;
+    font-size: 2em;
     text-align: center;
     font-weight: bold;
-    margin-top: 5px;
-    position: relative;
-    top: 10px;
+    color: white;
+    margin-top: 1em;
 }
 
 h2 {
-    font-size: 15pt;
+    font-size: 1.2em;
     color: #f35d45;
     text-align: center;
-    padding: 18px 0 18px 0;
-    margin: 0 0 20px 0;
     font-weight: bold;
+    margin-bottom: 2em;
 }
 
 h2 span {
     display: inline-block;
-    width: 200px;
+    width: 10em;
     border-radius: 10px;
-    border: 4px solid #f35d45;
-    padding: 10px;
+    border: 5px solid #f35d45;
+    padding: 0.5em;
 }
 
 p {
     padding: 0;
-    margin: 0 0 5px;
+    margin: 0 0 0.5em;
     line-height: 1.25em;
-}
-
-.img-circle {
-    border: 3px solid white;
-    border-radius: 50%;
 }
 
 .section {
     background-color: #fff;
-    padding: 20px 10% 30px;
+    padding: 1em;
     border-radius: 10px;
-    margin: 0 auto 20px;
+    margin: 0 auto 1.25em;
 }
 
 #header {
@@ -63,43 +56,35 @@ p {
 
 #header img {
     display: block;
-    width: 80px;
-    height: 80px;
-    margin: 20px auto auto;
-}
-
-#header p {
-    font-size: 25pt;
-    color: #3b464c;
-    padding-top: 5px;
-    margin: 0;
-    font-weight: bolder;
-    text-align: center;
-    text-outline: 1px 1px white;
-}
-
-#skillsSection .row div{
-    margin-bottom: 10px;
+    width: 8em;
+    height: 8em;
+    margin: 1.5em auto auto;
+    border: 5px solid white;
+    border-radius: 50%;
 }
 
 .language {
-    display: inline-block;
-    width: 25%;
     position: relative;
-    top: 3px;
-    text-align: right;
-    /*font-size: 1.1em;*/
+    left: -0.75em;
+    top: 2px;
+}
+
+.twoProjectsRow {
+    padding: 0 1em;
+}
+
+.skill {
+    margin-bottom: 1em;
 }
 
 .progressBackground {
     display: inline-block;
-    margin-left: 10px;
-    width: 65%;
-    height: 27px;
+    height: 1.5em;
     background: #FEE6DA;
     border-radius: 3px;
     position: relative;
     top: 2px;
+    padding: 0;
 }
 
 .progressValue {
@@ -113,9 +98,9 @@ p {
 .progressValueText {
     display: inline-block;
     width: 100%;
-    text-align: center;
-    /*position: relative;*/
-    /*top: 3px;*/
+    position: relative;
+    top: -1px;
+    left: 0.5em;
     color: #FEE6DA;
     font-weight: bold;
     font-size: 1.1em;
@@ -141,6 +126,10 @@ a:visited {
     text-align: center;
 }
 
+.customList {
+    margin-top: 1em;
+}
+
 .customListItem {
     display: table;
 }
@@ -149,34 +138,28 @@ a:visited {
     display: table-cell;
 }
 
-.customList {
-    margin: 15px 15% 0 25%;
-}
-
 .customListIcon {
-    height: 25px;
-    margin-right: 10px;
+    height: 1.5em;
+    margin-right: 0.75em;
     display: table-cell;
+    position: relative;
+    top: 0.35em;
 }
 
 .customListText {
     display: inline;
-    position: relative;
-    top: -6px;
 }
 
 /* FF render table-cell differently (dirty solution, need to improve) */
 @-moz-document url-prefix() {
     .customListText {
         display: inline;
-        position: relative;
-        top: 2px;
     }
 }
 
 .toggle {
     padding: 5px 20px;
-    margin: 15px auto 0;
+    margin: 1em auto 0;
     color: #f35d45;
     border: none;
     background-color: transparent;
@@ -196,8 +179,8 @@ button:focus {
 }
 
 .projects {
-    border-spacing: 10px;
-    margin-top: 10px;
+    border-spacing: 0.75em;
+    margin-top: 0.75em;
 }
 
 .projectsHidden {
@@ -205,16 +188,17 @@ button:focus {
 }
 
 .project {
-    padding: 5px;
+    padding: 0.25em;
     margin: 0;
     border: 10px solid transparent;
+    min-height: 9em;
 }
 
 .projectContent {
     background-color: #FEE6DA;
     width: 100%;
     height: 100%;
-    padding: 10px 20px;
+    padding: 0.8em 1.2em;
     border-radius: 15px;
     position: relative;
 }
@@ -249,7 +233,7 @@ button:focus {
 }
 
 #projectsToggle {
-    margin-top: 20px;
+    margin-top: 1.2em;
 }
 
 .experienceHidden {
@@ -263,16 +247,14 @@ button:focus {
     font-style: italic;
 }
 
-.company {
+.experienceTitle div {
     text-align: center;
+    margin: 0 auto;
 }
 
-.period {
-    text-align: right;
-}
 
 hr {
-    margin: 25px auto;
+    margin: 2em auto;
     width: 40%;
     background-color: #efefef;
 }
@@ -290,8 +272,8 @@ hr {
 }
 
 .modal-content {
-    width:inherit;
-    height:inherit;
+    width: inherit;
+    height: inherit;
     margin: 0 auto;
 }
 
@@ -310,7 +292,7 @@ hr {
 }
 
 .modal-footer {
-    height: 60px;
+    height: 4em;
 }
 
 .closeModalButton {
@@ -338,18 +320,14 @@ hr {
 }
 
 #contactForm * {
-    width: 80%;
-}
-
-#contactForm input[type=text], #contactSubmit, #contactSubmitAlert {
-    min-height: 50px;
+    width: 100%;
 }
 
 #contactForm input, #contactMessage {
     box-sizing: border-box;
-    margin-bottom: 10px;
-    font-size: 11pt;
-    padding: 15px 10px 10px;
+    margin-bottom: 0.75em;
+    font-size: 1em;
+    padding: 0.25em 0.5em;
     border: 1px solid #cecece;
     background-color: #efefef;
     color: #787575;
@@ -358,9 +336,8 @@ hr {
 }
 
 #contactMessage {
-    height: 120px;
+    height: 9em;
     resize: none;
-    margin-bottom: 3px;
 }
 
 #contactMessage, input[type=text] {
@@ -376,7 +353,6 @@ hr {
     border: none;
     outline: none;
     font-weight: bold;
-    margin-top: 15px;
 }
 
 #contactSubmit:hover {
@@ -384,7 +360,7 @@ hr {
 }
 
 #contactSubmitAlert {
-    margin: 15px auto;
+    margin: 1em auto;
     display: none;
 }
 
@@ -392,15 +368,21 @@ hr {
     display: none;
 }
 
+#followMeSection {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 #followMeSection div {
-    margin-bottom: 10px;
-    width: 100%;
+    width: 80%;
+    padding: 0 0.2em;
+    margin: 0 auto;
 }
 
 #followMeSection .contactIcon {
-    height: 50px;
-    width: 50px;
-    margin: 0 7px;
+    height: 2.3em;
+    width: 2.3em;
+    margin: 0.2em;
 }
 
 #followMeSection a {
@@ -418,8 +400,8 @@ hr {
 
 .contactIcon:hover {
     opacity: 0.9;
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
     -webkit-transition: transform;
     transition: transform;
     -webkit-transition-duration: 0.3s;
@@ -431,9 +413,9 @@ hr {
 }
 
 .copyright {
-    font-size: 10pt;
+    font-size: 0.75em;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 0.75em;
     color: grey;
 }
 

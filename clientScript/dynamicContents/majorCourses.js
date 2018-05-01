@@ -1,15 +1,17 @@
 var courses = [
-    "Data Structures and Algorithms",
+    "Data Structures and Introduction to Algorithmic Analysis",
     "Operating System Concepts",
     "Database Systems",
     "Computer Architecture",
-    "Advanced Computer Network Security",
+    "Computer Network Security",
     "C/C++ in UNIX Environment",
-    "Software Architecture",
+    "Software Architecture and Design Patterns",
     "Requirements Engineering",
-    "Software Testing and Quality Assurance",
+    "Software Testing, Verification, and Quality Assurance",
     "Software Project Planning and Management",
-    "Program Analysis"
+    "Program Analysis and Its Application",
+    "Introduction to Machine Learning",
+    "Object-Oriented Analysis and Design"
 ];
 
 $(function () {

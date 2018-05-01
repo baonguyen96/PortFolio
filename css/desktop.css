@@ -1,130 +1,54 @@
-/* ipad landscape */
-@media only screen and (max-width: 1100px) {
-    .projectContent {
-        min-height: 260px;
-    }
-}
-
-
-/* ipad portrait */
-@media only screen and (max-width: 1000px) {
-    .projectContent {
-        min-height: 185px;
-    }
-}
-
-@media only screen and (max-width: 950px) {
-    #skillsSection .language {
-        width: 20%;
-    }
-
-    #skillsSection .progressBackground {
-        width: 70%
-    }
-}
-
-
-/* desktop */
-@media only screen and (min-width: 1100px) {
-    .customList {
-        margin-left: 25%;
-    }
-
-    .projectContent {
-        min-height: 210px;
-    }
-}
-
-
-/* phone (landscape) */
-@media only screen and (max-width: 670px) {
-    .projectContent {
-        min-height: 110px;
-    }
-
-    .customList {
-        margin: 10px 15% 0 15%;
-    }
-}
-
-
-@media only screen and (max-width: 600px) {
-    .experienceTitle {
-        text-align: center;
-    }
-
-    .period {
-        text-align: center;
-    }
-
-}
-
-
-/* phone (portrait) */
-@media only screen and (max-width: 420px) {
+@media screen and (min-width: 481px) {
     body {
-        padding: 10px 3%;
-    }
-
-    #name {
-        color: white;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .section {
-        padding: 15px 30px 25px;
+        margin-bottom: 3em;
+        padding: 3em;
     }
 
-    #skillsSection {
-        padding-left: 5px;
-        padding-right: 5%;
-    }
-
-    .language {
-        width: 30% !important;
-    }
-
-    .progressBackground {
-        width: 60% !important;
-    }
-
-    .customList {
-        margin: 10px 15px 0;
-    }
-
-    .projects, .projectsHidden {
-        padding: 0;
-    }
-
-    .projectContent {
-        margin: 0;
-        min-height: 100px;
-    }
-
-    .modal-body .demoImage {
-        max-height: 300px;
-        max-width: 100%;
-    }
-
-    #contactForm * {
-        width: 95%;
-    }
-
-    #followMeSection {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    #followMeSection div {
-        margin-top: 0;
-        padding: 0;
-    }
-
-    .contactIcon {
-        width: 40px !important;
-        height: 40px !important;
-        margin: 0 3px !important;
-        padding: 0 !important;
-    }
 }
 
 
+@media screen and (min-width: 768px) {
+
+    .skillContent {
+        padding-right: 30px;
+    }
+
+    .customList {
+        padding-left: 20%;
+        padding-right: 15%;
+    }
+
+    .projectContent {
+        min-height: 13em;
+    }
+
+    #followMeSection .contactIcon {
+        height: 3em;
+        width: 3em;
+        margin: 0 0.5em;
+    }
+
+    .contactIcon:hover {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        -webkit-transition: transform;
+        transition: transform;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+
+}
+
+
+/*@media screen and (min-width: 1025px) {*/
+
+    /*#name {*/
+        /*color: black;*/
+    /*}*/
+
+/*}*/

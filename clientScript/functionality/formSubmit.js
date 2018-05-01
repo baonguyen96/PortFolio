@@ -39,7 +39,7 @@ function processServerResponse(data) {
         setupAlert("alert-success", "Congratulation!", "Your message has been sent.");
     }
     else {
-        setupAlert("alert-danger", "Sorry!", "We are unable to process your message.<br/>Please click the mail icon below to send message instead.");
+        setupAlert("alert-danger", "Sorry!", "The system is unable to process your message.<br/>Please click the mail icon below to send message instead.");
     }
 }
 

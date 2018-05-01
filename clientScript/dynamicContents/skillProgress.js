@@ -1,4 +1,4 @@
-// to be added: ReactJS, XML, RDF, SPARQL
+// to be added: ReactJS
 skills = [
     {
         "name": "Java",
@@ -26,11 +26,11 @@ skills = [
     },
     {
         "name": "HTML",
-        "value": "90%"
+        "value": "100%"
     },
     {
         "name": "CSS",
-        "value": "90%"
+        "value": "100%"
     },
     {
         "name": "JavaScript",
@@ -46,7 +46,7 @@ skills = [
     },
     {
         "name": "NodeJS",
-        "value": "20%"
+        "value": "35%"
     },
     {
         "name": "MongoDB",
@@ -101,31 +101,34 @@ skills = [
         "value": "75%"
     },
     {
-        "name": "MS Office",
+        "name": "Office",
         "value": "90%"
     }
 ];
 
 $(document).ready(function () {
     var skillsSection = $("#skillsSection");
-    var row = $("#skillRowTemplate").find(".row");
+    var twoProjectsRow = $("#skillRowTemplate").find(".twoProjectsRow");
+    var skill = twoProjectsRow.find(".skill").clone();
 
     // loop through each row (2 projects)
     for(var rowIndex = 0; rowIndex < skills.length; rowIndex += 2) {
-        var newRow = row.clone();
+        var newRow = twoProjectsRow.clone();
         newRow.find(".skill").eq(0).remove();
 
         // add 2 projects per row
         for(var skillIndex = 0; skillIndex < 2; skillIndex++) {
-
             var skillData = skills[rowIndex + skillIndex];
-            var currentSkill = row.find(".skill").clone();
+            var currentSkill = skill.clone();
+
             currentSkill.find(".language").text(skillData.name);
             currentSkill.find(".progressValue").width(skillData.value);
             currentSkill.find(".progressValueText").text(skillData.value);
+
             newRow.append(currentSkill);
         }
 
+        console.log(newRow.html());
         skillsSection.append(newRow);
     }
 });
