@@ -3,7 +3,7 @@
 projectsList = [
     {
         "title": "Dark Chroma",
-        "intro": createIntro("A Chrome extension that revert the color of the page " +
+        "intro": createIntro("A Chrome extension that reverts the color of the page " +
             "(bright text on dark background) to reduce " +
             "eye-strains from long working period.", ["Chrome extension"]),
         "links": [
@@ -27,7 +27,9 @@ projectsList = [
         "title": "Self Service Agent For Test Data",
         "intro":
             "<p id='seniorDesignTitle'><i>(Senior Design Project for " + createLinkText("http://argodata.com/", "", "ARGO Data") + ")</i></p>" +
-            createIntro("An application that automatically generated desired test data. It use SPARQL and Java to retrieve and store RDF graphs from/to Fuseki server. Can be used as CLI application or Web application (SpringBoot).",
+            createIntro("An application that automatically generates desired test data for QA testers to use. " +
+                "It use SPARQL and Java to retrieve and store RDF graphs from/to Fuseki server. " +
+                "Can be used as CLI application or Web application (SpringBoot).",
             ["SPARQL", "Java", "Fuseki", "SpringBoot"]),
         "links": [
             createDemoText()
@@ -57,7 +59,7 @@ projectsList = [
         "title": "Tickets Reservation System",
         "intro": createIntro("This C++ project simulates an online ticketing systems. " +
             "It lets user reserves seats, flies the plane when full, or puts the selected seats " +
-            "onto the wait-list. The prices depends on different configurations of user's data.", ["C++"]),
+            "onto the wait-list. The price depends on different configurations of user's data.", ["C++"]),
         "links": [
             createDemoText(),
             createLinkTextWithPointer("https://github.com/baonguyen96/AirplaneTicketsReservingSystem")
@@ -65,7 +67,7 @@ projectsList = [
     },
     {
         "title": "E-Commerce",
-        "intro": createIntro("This project is a small E-Commerce database using Java embedded with MySQL " +
+        "intro": createIntro("A small E-Commerce application using Java embedded with MySQL " +
             "(JDBC and JPA.)", ["MySQL", "JDBC", "JPA"]),
         "links": [
             createLinkTextWithPointer("https://github.com/baonguyen96/ECommerce")
@@ -83,7 +85,7 @@ projectsList = [
     },
     {
         "title": "Calendar",
-        "intro": createIntro("Simple JavaFX program to calculate the difference between 2 dates, " +
+        "intro": createIntro("A simple JavaFX program that calculates the difference between 2 dates, " +
             "or the second date given the first one and the duration.", ["JavaFX"]),
         "links": [
             createDemoText(),
@@ -129,7 +131,7 @@ projectsList = [
     },
     {
         "title": "Cyberminer",
-        "intro": createIntro(createLinkText("#KWICSystem", "A simple search engine built in HTML, CSS, SpringBoot, MySQL, and Selenium that allows users to add a URL-Description tuple to the database, and carries " +
+        "intro": createIntro(createLinkText("#KWICSystem", "A search engine built in HTML, CSS, SpringBoot, MySQL, and Selenium that allows users to add a URL-Description tuple to the database, and carries " +
             "out a search on the descriptions. Built upon the", "KWIC") + " project.",
             ["HTML", "CSS", "SpringBoot", "MySQL", "Selenium"]),
         "links": [
@@ -139,20 +141,12 @@ projectsList = [
     {
         "title": "Color Conversion",
         "intro": createIntro(
-            createLinkText("https://en.wikipedia.org/wiki/Linear_scale", "A simple Python program that enhance " +
+            createLinkText("https://en.wikipedia.org/wiki/Linear_scale", "A simple Python program that enhances " +
                 "images by performing ", "Linear Scaling") +
             createLinkText("https://en.wikipedia.org/wiki/Histogram_equalization", " and", "Histogram Equalization") +
             " on them.", ["Python"]),
         "links": [
             createLinkTextWithPointer("https://github.com/baonguyen96/ImageColor")
-        ]
-    },
-    {
-        "title": "Viet Cuisine",
-        "intro": createIntro("A website that showcases Vietnamese cuisine. Implemented using HTML, CSS, Bootstrap, " +
-            "and JavaScript.", ["HTML", "CSS", "Bootstrap", "JavaScript"]),
-        "links": [
-            createLinkTextWithPointer("https://github.com/baonguyen96/VietCuisine")
         ]
     },
     {
@@ -181,6 +175,14 @@ projectsList = [
         "links": [
             createLinkText("http://techrush.site/", "See the ", "official site"),
             createLinkTextWithPointer("https://github.com/baonguyen96/TechRush")
+        ]
+    },
+    {
+        "title": "Viet Cuisine",
+        "intro": createIntro("A website that showcases Vietnamese cuisine. Implemented using HTML, CSS, Bootstrap, " +
+            "and JavaScript.", ["HTML", "CSS", "Bootstrap", "JavaScript"]),
+        "links": [
+            createLinkTextWithPointer("https://github.com/baonguyen96/VietCuisine")
         ]
     }
 ];
@@ -302,7 +304,5 @@ $(function () {
     addProjectsToGroup(projects, 0, 4);
     addProjectsToGroup(projectsHidden, 4, projectsList.length);
     showDemo();
-
-    console.log($("#hiddenModal").html());
 
 });

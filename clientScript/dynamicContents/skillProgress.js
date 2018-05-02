@@ -128,7 +128,6 @@ $(document).ready(function () {
             newRow.append(currentSkill);
         }
 
-        console.log(newRow.html());
         skillsSection.append(newRow);
     }
 });

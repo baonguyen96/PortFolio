@@ -8,17 +8,12 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
-include "emailCredentials.php";
 
 $bot = $_POST["bot"];
 $result = "";
 
 // send if no bot
 if($bot === "") {
-    // receiver
-    $myName = $credentials["name"];
-    $myUsername = $credentials["email"];
-    $myPassword = $credentials["password"];
 
     // sender
     $senderName = $_POST["name"];
@@ -31,27 +26,14 @@ if($bot === "") {
         $result = "Invalid email address";
     }
     else {
+
+        $mail = new PHPMailer(true);
+
         try {
-            $mail = new PHPMailer(true);
-            $mail->SMTPDebug = 0;   // set to 2 to enable debugging
-            $mail->isSMTP();
-            $mail->SMTPOptions = array(
-                'ssl' => array(
-                    'verify_peer' => false,
-                    'verify_peer_name' => false,
-                    'allow_self_signed' => true
-                )
-            );
-            $mail->Host = "smtp.gmail.com";
-            $mail->Port = 587;
-            $mail->SMTPSecure = "tls";
-            $mail->SMTPAuth = true;
-            $mail->Username = $myUsername;
-            $mail->Password = $myPassword;
-            $mail->setFrom($senderEmailAddress);
-            $mail->addAddress($myUsername, $myName);
+            $mail->setFrom($senderEmailAddress, $senderName, 0);
+            $mail->addAddress('bntest96@gmail.com');
             $mail->Subject = $subject;
-            $mail->Body = $header . "\r\n\r\n\r\nMessage:\r\n" . $message;
+            $mail->Body = $header . "\r\n\r\nSubject:\r\n".$subject."\r\n\r\nMessage:\r\n" . $message;
 
             if ($mail->send()) {
                 $result = "Success";
@@ -59,7 +41,8 @@ if($bot === "") {
                 $result = "Internal Error";
             }
         } catch (Exception $e) {
-            $result = "Exception";
+            $e->errorMessage();
+            $result = $e->errorMessage();
         }
     }
 }

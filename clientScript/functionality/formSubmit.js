@@ -36,7 +36,7 @@ $(function () {
 function processServerResponse(data) {
     var json = JSON.stringify(data);
 
-    console.log(json);
+    // console.log(json);
 
     if(json === '"Success"') {
         setupAlert("alert-success", "Congratulation!", "Your message has been sent.");
