@@ -4,10 +4,9 @@ var workExperienceList = [
         "company": "Loopback Analytics",
         "period": "May 2017 - Present",
         "duties": [
-            "Use Selenium WebDriver for automated testing",
-            "Implement additional features such as self-healing and report logging for the tool",
             "Architect and build a system that integrates different tools to support end-to-end automation testing",
-            "Perform regression tests on database migration",
+            "Implement additional features such as self-healing and report logging for the automated tool",
+            "Develop test cases from the requirements",
             "Experience with Java, SQL, Selenium"
         ]
     },

@@ -9,6 +9,7 @@ body {
     padding: 5% 1%;
     margin: 0;
     font-family: Arial, serif !important;
+    /*font-family: 'Lato', sans-serif;*/
 }
 
 #name {
@@ -74,6 +75,10 @@ p {
     border-radius: 50%;
 }
 
+#skillsSection p.greeting {
+    margin-bottom: 2em;
+}
+
 .language {
     position: relative;
     left: -0.75em;
@@ -135,6 +140,7 @@ a:visited {
 
 .greeting {
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .customList {
@@ -328,7 +334,7 @@ hr {
 
 #contactForm {
     text-align: center;
-    margin-top: 0;
+    margin-top: 2em;
 }
 
 #contactForm * {
@@ -383,6 +389,10 @@ hr {
 #followMeSection {
     padding-left: 0;
     padding-right: 0;
+}
+
+#followMeSection > div.row {
+    margin-top: 2em;
 }
 
 #followMeSection > div div {

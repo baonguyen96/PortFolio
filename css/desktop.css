@@ -62,6 +62,10 @@
         transition-duration: 0.3s;
     }
 
+    .copyright {
+        font-size: 1em;
+    }
+
 }
 
 

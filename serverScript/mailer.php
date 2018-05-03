@@ -20,7 +20,7 @@ if($bot === "") {
     $senderEmailAddress = $_POST["email"];
     $subject = $_POST["subject"];
     $message = $_POST["message"];
-    $header = "From:\r\n$senderName at $senderEmailAddress";    // gmail does not allow custom "From" address header
+    $header = "From:\r\n$senderName at $senderEmailAddress";
 
     if(!filter_var($senderEmailAddress, FILTER_VALIDATE_EMAIL)) {
         $result = "Invalid email address";
