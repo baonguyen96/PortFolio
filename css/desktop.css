@@ -31,10 +31,6 @@
         min-height: 13em;
     }
 
-    #contactForm * {
-        width: 80%;
-    }
-
     #followMeSection > div div {
         padding: 0;
     }
@@ -74,6 +70,11 @@
     .customList {
         padding-left: 25%;
         padding-right: 17%;
+    }
+
+    .progressBackground {
+        position: relative;
+        left: 1em;
     }
 
 }

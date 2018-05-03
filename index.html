@@ -3,12 +3,13 @@
     <head>
         <title>Bao Nguyen Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Hello my name is Bao. This is my Port Folio. Check it out.">
+        <meta name="description" content="This is a portfolio of Bao Nguyen, a software engineer student at the University of Texas at Dallas.">
         <link rel="icon" type="image/png" href="./assets/images/misc/favicon.png" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
               integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
               crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/mobile.css">
         <link rel="stylesheet" type="text/css" href="css/desktop.css">
         <script src="https://code.jquery.com/jquery-3.3.1.js"
@@ -39,7 +40,6 @@
 
         <script src="clientScript/functionality/showHide.js"></script>
         <script src="clientScript/functionality/smoothScroll.js"></script>
-        <script src="clientScript/functionality/formSubmit.js"></script>
     </head>
 
     <body>
@@ -119,35 +119,14 @@
                 </p>
             </section>
 
-            <section class="section">
-                <h2><span>Contact Me</span></h2>
-                <p class="greeting">
-                    Are you looking for a passionate developer with high ethical standards and a broad skill set? Or maybe if you just want to get in touch? If so, please do not hesitate to send me an email or just submit this form. I am more than happy to talk to you.
-                </p>
-                <form id="contactForm" action="" method="post">
-                    <input name="name" placeholder="Name" type="text" id="contactName" required/><br/>
-                    <input name="email" placeholder="Email" type="email" id="contactEmail" required/><br/>
-                    <input name="subject" placeholder="Subject" type="text" id="contactSubject" required><br/>
-                    <textarea name="message" placeholder="Message" id="contactMessage" required></textarea><br/>
-                    <input type="submit" value="SEND" class="submit" id="contactSubmit"/>
-
-                    <div class="alert" role="alert" id="contactSubmitAlert">
-                        <strong></strong> <span></span>
-                    </div>
-
-                    <!-- hidden so that only bot will see (thus click) and not human -->
-                    <div id="botPrevention">
-                        <label for="botPreventionRadioButton">Do you agree to the terms and conditions of using our
-                            services?</label>
-                        <input name="botPreventionRadioButton" type="radio" value="" id="botPreventionRadioButton">
-                    </div>
-                </form>
-            </section>
-
             <section class="section" id="followMeSection">
-                <h2><span>Follow Me</span></h2>
-                <p class="greeting">
+                <h2><span>Contact Me</span></h2>
+                <p class="greeting" hidden>
                     Want to be friend with me on Social Media? I'd love to connect to you as well.
+                </p>
+                <p class="greeting">
+                    Are you looking for a passionate developer with high ethical standards and a broad skill set?
+                    Or maybe you just want to get in touch? If so, please do not hesitate to send me an email or connect with me via Social Media. I am more than happy to talk to you.
                 </p>
                 <div class="row">
                     <div class="col-md-6">

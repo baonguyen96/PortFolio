@@ -8,8 +8,8 @@ body {
     background-color: #efefef;
     padding: 5% 1%;
     margin: 0;
-    font-family: Arial, serif !important;
-    /*font-family: 'Lato', sans-serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #name {
@@ -81,7 +81,7 @@ p {
 
 .language {
     position: relative;
-    left: -0.75em;
+    left: -0.6em;
     top: 2px;
 }
 
@@ -330,60 +330,6 @@ hr {
     -webkit-box-shadow: 2px 2px 4px 4px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:    2px 2px 4px 4px #ccc;  /* Firefox 3.5 - 3.6 */
     box-shadow:         2px 2px 4px 4px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-}
-
-#contactForm {
-    text-align: center;
-    margin-top: 2em;
-}
-
-#contactForm * {
-    width: 100%;
-}
-
-#contactForm input, #contactMessage {
-    box-sizing: border-box;
-    margin-bottom: 0.75em;
-    font-size: 1em;
-    padding: 0.25em 0.5em;
-    border: 1px solid #cecece;
-    background-color: #efefef;
-    color: #787575;
-    border-radius: 7px;
-    outline: none;
-}
-
-#contactMessage {
-    height: 9em;
-    resize: none;
-}
-
-#contactMessage, input[type=text] {
-    font-family: Arial, serif;
-}
-
-#contactSubmit {
-    box-sizing: border-box;
-    background-color: #FAAF85 !important;
-    border-radius: 7px;
-    cursor: pointer;
-    color: white !important;
-    border: none;
-    outline: none;
-    font-weight: bold;
-}
-
-#contactSubmit:hover {
-    background-color: #F59C68 !important;
-}
-
-#contactSubmitAlert {
-    margin: 1em auto;
-    display: none;
-}
-
-#botPrevention {
-    display: none;
 }
 
 #followMeSection {

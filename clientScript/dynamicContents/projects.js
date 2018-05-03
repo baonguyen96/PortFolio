@@ -173,7 +173,7 @@ projectsList = [
             " Written in HTML, CSS, Bootstrap, JavaScript, WordPress.",
             ["HTML", "CSS", "Bootstrap", "JavaScript", "WordPress"]),
         "links": [
-            createLinkText("http://techrush.site/", "See the ", "official site"),
+            createLinkTextWithPointer("http://techrush.site/", "See the ", "official site"),
             createLinkTextWithPointer("https://github.com/baonguyen96/TechRush")
         ]
     },
