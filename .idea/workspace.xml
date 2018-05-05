@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afc4e4b2-39f4-459e-833b-faab20c888c4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/serverScript/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/mobile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientScript/dynamicContents/projects.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="195" column="27" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+      <find>customListT</find>
+      <find>sec</find>
+      <find>ski</find>
+      <find>projectTy</find>
+      <find>textA</find>
+      <find>class=&quot;customListTextWrapper&quot;</find>
+      <find>customListD</find>
+      <find>&quot;</find>
+      <find>&quot;:</find>
+      <find>kwic</find>
+      <find>language</find>
+      <find>writte</find>
+      <find>id</find>
+      <find>mips</find>
+      <find>calen</find>
+      <find>project</find>
+      <find>demo</find>
+      <find>1.05</find>
+      <find>custom</find>
+      <find>modal-t</find>
+      <find>cus</find>
+      <find>Node</find>
+      <find>simul</find>
+      <find>searc</find>
+      <find>toggle</find>
+      <find>border-radius</find>
+      <find>gree</find>
+      <find>conta</find>
+      <find>follow</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>{&quot;</replace>
+      <replace>},</replace>
+      <replace>&quot;,</replace>
+      <replace>%&quot;,</replace>
+      <replace>/div</replace>
+      <replace>row</replace>
+      <replace />
+      <replace>:</replace>
+      <replace>0.5</replace>
+      <replace>2</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="project-border" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/serverScript/initial.ini" />
+        <option value="$PROJECT_DIR$/serverScript/init.json" />
+        <option value="$PROJECT_DIR$/serverScript/test.json" />
+        <option value="$PROJECT_DIR$/serverScript/results/res1.json" />
+        <option value="$PROJECT_DIR$/serverScript/test.php" />
+        <option value="$PROJECT_DIR$/clientScript/smoothScroll.js" />
+        <option value="$PROJECT_DIR$/serverScript/mail.php" />
+        <option value="$PROJECT_DIR$/serverScript/PHPMailer/vendor/composer/autoload_static.php" />
+        <option value="$PROJECT_DIR$/serverScript/PHPMailer/vendor/composer/ClassLoader.php" />
+        <option value="$PROJECT_DIR$/serverScript/php/test.json" />
+        <option value="$PROJECT_DIR$/clientScript/formSubmit.js" />
+        <option value="$PROJECT_DIR$/serverScript/nodejs/mailServer.js" />
+        <option value="$PROJECT_DIR$/serverScript/php/mail.php" />
+        <option value="$PROJECT_DIR$/clientScript/showHide.js" />
+        <option value="$PROJECT_DIR$/clientScript/commonFunctions.js" />
+        <option value="$PROJECT_DIR$/clientScript/experience.js" />
+        <option value="$PROJECT_DIR$/clientScript/projects.js" />
+        <option value="$PROJECT_DIR$/clientScript/skillProgress.js" />
+        <option value="$PROJECT_DIR$/clientScript/render.js" />
+        <option value="$PROJECT_DIR$/clientScript/emailContact.js" />
+        <option value="$PROJECT_DIR$/serverScript/php/emailCredentials.php" />
+        <option value="$PROJECT_DIR$/clientScript/awards.js" />
+        <option value="$PROJECT_DIR$/clientScript/majorCourses.js" />
+        <option value="$PROJECT_DIR$/html/templates.html" />
+        <option value="$PROJECT_DIR$/serverScript/php/mailer.php" />
+        <option value="$PROJECT_DIR$/clientScript/dynamicContents/render.js" />
+        <option value="$PROJECT_DIR$/clientScript/dynamicContents/modal.js" />
+        <option value="$PROJECT_DIR$/css/modal.css" />
+        <option value="$PROJECT_DIR$/html/demoPopup.html" />
+        <option value="$PROJECT_DIR$/clientScript/functionality/contactIcons.js" />
+        <option value="$PROJECT_DIR$/serverScript/php/emailAddressSetter.php" />
+        <option value="$PROJECT_DIR$/clientScript/functionality/test.php" />
+        <option value="$PROJECT_DIR$/clientScript/functionality/showHide.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/media.css" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/clientScript/dynamicContents/awards.js" />
+        <option value="$PROJECT_DIR$/clientScript/functionality/emailContact.js" />
+        <option value="$PROJECT_DIR$/serverScript/php/basicEmail.php" />
+        <option value="$PROJECT_DIR$/clientScript/dynamicContents/majorCourses.js" />
+        <option value="$PROJECT_DIR$/clientScript/dynamicContents/skillProgress.js" />
+        <option value="$PROJECT_DIR$/clientScript/dynamicContents/experience.js" />
+        <option value="$PROJECT_DIR$/clientScript/functionality/formSubmit.js" />
+        <option value="$PROJECT_DIR$/serverScript/testMail.php" />
+        <option value="$PROJECT_DIR$/serverScript/mailer.php" />
+        <option value="$PROJECT_DIR$/css/desktop.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/mobile.css" />
+        <option value="$PROJECT_DIR$/clientScript/dynamicContents/projects.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="715727f3-d80d-42d3-b7d8-b746616bacf6" name="Unnamed" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
+    <include_path>
+      <path value="$PROJECT_DIR$/serverScript/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/serverScript/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="815" />
+    <option name="width" value="1195" />
+    <option name="height" value="1139" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsPHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PortFolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortFolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortFolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortFolio" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortFolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortFolio" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortFolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortFolio" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortFolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortFolio" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortFolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortFolio" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="media-icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortFolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortFolio" type="462c0819:PsiDirectoryNode" />
+              <item name="clientScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortFolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortFolio" type="462c0819:PsiDirectoryNode" />
+              <item name="clientScript" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicContents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortFolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortFolio" type="462c0819:PsiDirectoryNode" />
+              <item name="clientScript" type="462c0819:PsiDirectoryNode" />
+              <item name="functionality" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortFolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortFolio" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="alert&#9;null&#9;null&#10;: 0;&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
+    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bao\Desktop\Codes\Web\PortFolio\serverScript" />
+      <recent name="C:\Users\Bao\Desktop\Codes\Web\PortFolio\" />
+      <recent name="C:\Users\Bao\Desktop\Codes\Web\PortFolio\clientScript\functionality" />
+      <recent name="C:\Users\Bao\Desktop\Codes\Web\PortFolio\clientScript\dynamicContents" />
+      <recent name="C:\Users\Bao\Desktop\Codes\Web\PortFolio\serverScript\php" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bao\Desktop\Codes\Web\PortFolio\assets\documents" />
+      <recent name="C:\Users\Bao\Desktop\Codes\Web\PortFolio\css\backup" />
+      <recent name="C:\Users\Bao\Desktop\Codes\Web\PortFolio\assets\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unknown.testMail.php2107927482">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PortFolio/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/PortFolio/html/index.html" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser start="true" url="http://http//localhost:8888" />
+      </EXTENSION>
+    </configuration>
+    <configuration name="mailServer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="mailServer.js" working-dir="$PROJECT_DIR$/serverScript/nodejs">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser start="true" url="http://localhost:8888" />
+      </EXTENSION>
+    </configuration>
+    <configuration name="testMail.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/serverScript/testMail.php" />
+    <list>
+      <item itemvalue="Node.js.mailServer.js" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.mailServer.js" />
+        <item itemvalue="Node.js.mailServer.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afc4e4b2-39f4-459e-833b-faab20c888c4" name="Default" comment="" />
+      <created>1514922635211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514922635211</updated>
+      <workItem from="1514922636513" duration="500000" />
+      <workItem from="1514923156444" duration="35820000" />
+      <workItem from="1515185509674" duration="23346000" />
+      <workItem from="1515344376430" duration="363000" />
+      <workItem from="1515344765060" duration="38000" />
+      <workItem from="1515344831036" duration="25837000" />
+      <workItem from="1515422137497" duration="7000" />
+      <workItem from="1515461964915" duration="6516000" />
+      <workItem from="1515473716638" duration="181000" />
+      <workItem from="1515474044560" duration="234000" />
+      <workItem from="1515516951973" duration="18471000" />
+      <workItem from="1515613971552" duration="2708000" />
+      <workItem from="1515623425183" duration="11448000" />
+      <workItem from="1515711329949" duration="91000" />
+      <workItem from="1515711440894" duration="173000" />
+      <workItem from="1515711647472" duration="3514000" />
+      <workItem from="1515716936613" duration="33984000" />
+      <workItem from="1515872372895" duration="14881000" />
+      <workItem from="1515949659799" duration="1267000" />
+      <workItem from="1515951192469" duration="1017000" />
+      <workItem from="1515966272842" duration="16550000" />
+      <workItem from="1516124923057" duration="126000" />
+      <workItem from="1516125058430" duration="17790000" />
+      <workItem from="1516231457446" duration="20377000" />
+      <workItem from="1516336492443" duration="1337000" />
+      <workItem from="1516376163991" duration="10740000" />
+      <workItem from="1516418741901" duration="15000" />
+      <workItem from="1516418821204" duration="2472000" />
+      <workItem from="1516427625683" duration="4676000" />
+      <workItem from="1516487085363" duration="19000" />
+      <workItem from="1516550052926" duration="18946000" />
+      <workItem from="1516632203913" duration="54000" />
+      <workItem from="1516632592405" duration="3599000" />
+      <workItem from="1516639834931" duration="219000" />
+      <workItem from="1516658363485" duration="16819000" />
+      <workItem from="1516768128512" duration="2995000" />
+      <workItem from="1516835150194" duration="1125000" />
+      <workItem from="1516842103624" duration="21437000" />
+      <workItem from="1517070524804" duration="265000" />
+      <workItem from="1517071307952" duration="8666000" />
+      <workItem from="1517108794871" duration="12502000" />
+      <workItem from="1517171670407" duration="7481000" />
+      <workItem from="1517202777020" duration="378000" />
+      <workItem from="1517203254855" duration="1045000" />
+      <workItem from="1517237308563" duration="4266000" />
+      <workItem from="1517259524045" duration="2942000" />
+      <workItem from="1517262931303" duration="1713000" />
+      <workItem from="1517264733197" duration="1573000" />
+      <workItem from="1517615768374" duration="20000" />
+      <workItem from="1517615837354" duration="104000" />
+      <workItem from="1517615989950" duration="24000" />
+      <workItem from="1517616065142" duration="47000" />
+      <workItem from="1517642208507" duration="286000" />
+      <workItem from="1517644602319" duration="687000" />
+      <workItem from="1518408278856" duration="628000" />
+      <workItem from="1518652986761" duration="448000" />
+      <workItem from="1518654132286" duration="1524000" />
+      <workItem from="1518660449796" duration="471000" />
+      <workItem from="1520133983240" duration="2238000" />
+      <workItem from="1520563247742" duration="92000" />
+      <workItem from="1522890026153" duration="2314000" />
+      <workItem from="1522898403516" duration="6378000" />
+      <workItem from="1523137825271" duration="277000" />
+      <workItem from="1523849904232" duration="464000" />
+      <workItem from="1523850426598" duration="310000" />
+      <workItem from="1523850867742" duration="1202000" />
+      <workItem from="1523916005812" duration="1087000" />
+      <workItem from="1523924173994" duration="1069000" />
+      <workItem from="1524491729295" duration="4602000" />
+      <workItem from="1524692842246" duration="160000" />
+      <workItem from="1524693059987" duration="65000" />
+      <workItem from="1524700500132" duration="401000" />
+      <workItem from="1524928154476" duration="612000" />
+      <workItem from="1524937380748" duration="3908000" />
+      <workItem from="1524948639063" duration="32201000" />
+      <workItem from="1525231218717" duration="4193000" />
+      <workItem from="1525290228187" duration="2035000" />
+      <workItem from="1525297529741" duration="10625000" />
+      <workItem from="1525489695155" duration="50000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update sites">
+      <created>1515092914959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515092914959</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add experience section">
+      <created>1515289106968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1515289106968</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix UI">
+      <created>1515357517298</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1515357517298</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Responsive custom list">
+      <created>1515386555390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1515386555390</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Align center custom list">
+      <created>1515440134475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1515440134475</updated>
+    </task>
+    <task id="LOCAL-00006" summary="UI updates for mobile">
+      <created>1515450085032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515450085032</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Some UI updates">
+      <created>1515457103716</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1515457103716</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Using AJAX">
+      <created>1515816985038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1515816985038</updated>
+    </task>
+    <task id="LOCAL-00009" summary="PHPMailer to setup Email">
+      <created>1516066311053</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516066311053</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Minor update">
+      <created>1516079909433</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516079909433</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refractor code in Awards, Skills, and Courses">
+      <created>1516165896281</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516165896281</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Dynamic elements using templates and JSON">
+      <created>1516330464749</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1516330464749</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Minor changes">
+      <created>1516337641176</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1516337641176</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Some refractorings">
+      <created>1516420923511</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1516420923511</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Minor UI updates">
+      <created>1516514917523</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1516514917523</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add Demo Popups">
+      <created>1516632727985</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1516632727985</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add Demo Popups with Minor changes">
+      <created>1516639937501</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1516639937501</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update toggle buttons and demo gif">
+      <created>1516683962912</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1516683962912</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Minor UI updates">
+      <created>1516771486543</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1516771486543</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update Demos">
+      <created>1516984936142</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516984936142</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Update contact icons">
+      <created>1517070295978</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1517070295978</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Update project tiles">
+      <created>1517076518289</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1517076518289</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update mobile GUI">
+      <created>1517160515868</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1517160515868</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Minor changes">
+      <created>1517200014916</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1517200014916</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Update for FireFox">
+      <created>1517202504631</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1517202504631</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Some updates">
+      <created>1524492297436</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1524492297436</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add some projects + structure changes">
+      <created>1524939892533</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1524939892533</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Minor update">
+      <created>1524949291755</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1524949291755</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Change layout">
+      <created>1525146172026</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1525146172026</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Minor change">
+      <created>1525147302279</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1525147302279</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Update layout for mobile">
+      <created>1525212148555</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1525212148555</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Various updates">
+      <created>1525291551020</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1525291551020</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Minor change">
+      <created>1525316380482</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1525316380482</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Change font + remove form">
+      <created>1525322001861</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1525322001861</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="476205000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21338251" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49814913" weight="0.32964602" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50185084" side_tool="true" weight="0.32868758" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.30160427" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46314326" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868758" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" weight="0.32962447" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.328125" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4659249" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21295546" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49814913" weight="0.32964602" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="8" weight="0.329849" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3246528" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4670139" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32868758" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50185084" side_tool="true" weight="0.32868758" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.30335474" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32976446" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/serverScript/PHPMailer" />
+      <path value="C:\Users\Bao\Desktop\Codes\Web\PortFolio\serverScript\PHPMailer" />
+    </ignored-roots>
+    <MESSAGE value="Some UI updates" />
+    <MESSAGE value="Using AJAX" />
+    <MESSAGE value="PHPMailer to setup Email" />
+    <MESSAGE value="Refractor code in Awards, Skills, and Courses" />
+    <MESSAGE value="Dynamic elements using templates and JSON" />
+    <MESSAGE value="Some refractorings" />
+    <MESSAGE value="Add Demo Popups" />
+    <MESSAGE value="Add Demo Popups with Minor changes" />
+    <MESSAGE value="Update toggle buttons and demo gif" />
+    <MESSAGE value="Minor UI updates" />
+    <MESSAGE value="Update Demos" />
+    <MESSAGE value="Update contact icons" />
+    <MESSAGE value="Update FileTransferApplication.gif" />
+    <MESSAGE value="Update project tiles" />
+    <MESSAGE value="Update mobile GUI" />
+    <MESSAGE value="Minor changes" />
+    <MESSAGE value="Update for FireFox" />
+    <MESSAGE value="Some updates" />
+    <MESSAGE value="Add some projects + structure changes" />
+    <MESSAGE value="Minor update" />
+    <MESSAGE value="Change layout" />
+    <MESSAGE value="Update layout for mobile" />
+    <MESSAGE value="Various updates" />
+    <MESSAGE value="Minor change" />
+    <MESSAGE value="Change font + remove form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change font + remove form" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientScript/dynamicContents/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="175" column="27" lean-forward="true" selection-start-line="175" selection-start-column="27" selection-end-line="175" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientScript/dynamicContents/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6930">
+          <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverScript/results/test.json" />
+    <entry file="file://$PROJECT_DIR$/serverScript/test.php" />
+    <entry file="file://$PROJECT_DIR$/serverScript/PHPMailer/vendor/phpmailer/phpmailer/src/SMTP.php" />
+    <entry file="file://$PROJECT_DIR$/serverScript/PHPMailer/vendor/phpmailer/phpmailer/src/PHPMailer.php" />
+    <entry file="file://$PROJECT_DIR$/serverScript/PHPMailer/vendor/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/serverScript/PHPMailer/vendor/composer/autoload_real.php" />
+    <entry file="file://$PROJECT_DIR$/serverScript/PHPMailer/vendor/composer/ClassLoader.php" />
+    <entry file="file://$PROJECT_DIR$/serverScript/PHPMailer/vendor/composer/autoload_static.php" />
+    <entry file="file://$PROJECT_DIR$/serverScript/nodejs/mailServer.js" />
+    <entry file="file://$PROJECT_DIR$/clientScript/render.js" />
+    <entry file="file://$PROJECT_DIR$/html/templates.html" />
+    <entry file="file://$PROJECT_DIR$/serverScript/php/test.json" />
+    <entry file="file://$PROJECT_DIR$/css/modal.css" />
+    <entry file="file://$PROJECT_DIR$/clientScript/dynamicContents/modal.js" />
+    <entry file="file://$PROJECT_DIR$/html/demoPopup.html" />
+    <entry file="file://$PROJECT_DIR$/assets/images/demos/ChatRoom.gif" />
+    <entry file="file://$PROJECT_DIR$/assets/images/demos/FlightsMap.gif" />
+    <entry file="file://$PROJECT_DIR$/assets/images/demos/TicketToKnowhere.gif" />
+    <entry file="file://$PROJECT_DIR$/assets/images/demos/RedBlackTree.gif" />
+    <entry file="file://$PROJECT_DIR$/assets/images/demos/MorseMastering.gif" />
+    <entry file="file://$PROJECT_DIR$/assets/images/demos/Calendar.gif" />
+    <entry file="file://$PROJECT_DIR$/clientScript/showHide.js" />
+    <entry file="file://$PROJECT_DIR$/clientScript/projects.js" />
+    <entry file="file://$PROJECT_DIR$/clientScript/functionality/contactIcons.js" />
+    <entry file="file://$PROJECT_DIR$/assets/images/demos/HealthScore.gif" />
+    <entry file="file://$PROJECT_DIR$/assets/images/demos/FileTransferApplication.gif" />
+    <entry file="file://$PROJECT_DIR$/assets/images/demos/DarkChroma.gif" />
+    <entry file="file://$PROJECT_DIR$/clientScript/functionality/test.php" />
+    <entry file="file://$PROJECT_DIR$/clientScript/dynamicContents/render.js" />
+    <entry file="file://$PROJECT_DIR$/clientScript/functionality/showHide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverScript/emailAddressSetter.php" />
+    <entry file="file://$PROJECT_DIR$/clientScript/functionality/emailContact.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php" />
+    <entry file="file://$PROJECT_DIR$/serverScript/basicEmail.php" />
+    <entry file="file://$PROJECT_DIR$/serverScript/emailCredentials.php" />
+    <entry file="file://$PROJECT_DIR$/clientScript/dynamicContents/awards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientScript/dynamicContents/skillProgress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2838">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientScript/dynamicContents/majorCourses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientScript/dynamicContents/experience.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverScript/testMail.php" />
+    <entry file="file://$PROJECT_DIR$/serverScript/mailer.php" />
+    <entry file="file://$PROJECT_DIR$/clientScript/functionality/formSubmit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/desktop.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientScript/dynamicContents/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="195" column="27" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
